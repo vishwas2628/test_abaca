@@ -19,10 +19,10 @@ app.use('/matching', questionAnsRespoRouter);
 app.use('/user/company-lists', groupRouter);
 
 
-if (require.main === module) {
-    app.listen(port, () => {
-        console.log(`Mini service listening at http://localhost:${port}`);
-    });
-}
+// if (require.main === module) {
+//     app.listen(port, () => {
+//         console.log(`Mini service listening at http://localhost:${port}`);
+//     });
+// }
 
 module.exports = app;
