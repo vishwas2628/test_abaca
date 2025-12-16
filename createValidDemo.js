@@ -268,7 +268,8 @@ async function main() {
             const config = companyConfig.find(c => company.name.includes(c.name));
 
             // 1. Industry
-            const industryVal = (company.sectors && company.sectors[0]) ? company.sectors[0].name : (config ? config.keyword : "General");
+            // Use the valid Industry name fetched from API (stored in _tempIndustry)
+            const industryVal = company._tempIndustry || "General";
             newQwR[0].responses.push({ // ID 1
                 id: 10000 + company.id,
                 value: industryVal,
