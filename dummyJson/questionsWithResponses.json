@@ -320,61 +320,61 @@
         "responses": [
             {
                 "id": 5401,
-                "value": "[{\"activityId\": 101, \"countryCode\": \"ET\", \"weight\": 1.0}]",
+                "value": "[{\"activityId\":101,\"countryCode\":\"ET\",\"weight\":1}]",
                 "user_profile__company_id": 1001,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5402,
-                "value": "[{\"activityId\": 102, \"countryCode\": \"KE\", \"weight\": 0.8}, {\"activityId\": 110, \"countryCode\": \"KE\", \"weight\": 0.2}]",
+                "value": "[{\"activityId\":102,\"countryCode\":\"KE\",\"weight\":0.8},{\"activityId\":110,\"countryCode\":\"KE\",\"weight\":0.2}]",
                 "user_profile__company_id": 1002,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5403,
-                "value": "[{\"activityId\": 23613, \"countryCode\": \"UG\", \"weight\": 1.0}]",
+                "value": "[{\"activityId\":23613,\"countryCode\":\"UG\",\"weight\":1}]",
                 "user_profile__company_id": 1003,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5404,
-                "value": "[{\"activityId\": 104, \"countryCode\": \"NG\", \"weight\": 0.9}, {\"activityId\": 115, \"countryCode\": \"NG\", \"weight\": 0.1}]",
+                "value": "[{\"activityId\":104,\"countryCode\":\"NG\",\"weight\":0.9},{\"activityId\":115,\"countryCode\":\"NG\",\"weight\":0.1}]",
                 "user_profile__company_id": 1004,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5405,
-                "value": "[{\"activityId\": 105, \"countryCode\": \"GH\", \"weight\": 1.0}]",
+                "value": "[{\"activityId\":105,\"countryCode\":\"GH\",\"weight\":1}]",
                 "user_profile__company_id": 1005,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5406,
-                "value": "[{\"activityId\": 14354, \"countryCode\": \"RW\", \"weight\": 1.0}]",
+                "value": "[{\"activityId\":14354,\"countryCode\":\"RW\",\"weight\":1}]",
                 "user_profile__company_id": 1006,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5407,
-                "value": "[{\"activityId\": 101, \"countryCode\": \"TZ\", \"weight\": 0.6}, {\"activityId\": 107, \"countryCode\": \"TZ\", \"weight\": 0.4}]",
+                "value": "[{\"activityId\":101,\"countryCode\":\"TZ\",\"weight\":0.6},{\"activityId\":107,\"countryCode\":\"TZ\",\"weight\":0.4}]",
                 "user_profile__company_id": 1007,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5408,
-                "value": "[{\"activityId\": 108, \"countryCode\": \"EG\", \"weight\": 1.0}]",
+                "value": "[{\"activityId\":108,\"countryCode\":\"EG\",\"weight\":1}]",
                 "user_profile__company_id": 1008,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5409,
-                "value": "[{\"activityId\": 27895, \"countryCode\": \"MA\", \"weight\": 1.0}]",
+                "value": "[{\"activityId\":27895,\"countryCode\":\"MA\",\"weight\":1}]",
                 "user_profile__company_id": 1009,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5410,
-                "value": "[{\"activityId\": 110, \"countryCode\": \"ZA\", \"weight\": 1.0}]",
+                "value": "[{\"activityId\":110,\"countryCode\":\"ZA\",\"weight\":1}]",
                 "user_profile__company_id": 1010,
                 "created_at": "2023-11-01T10:00:00Z"
             }
