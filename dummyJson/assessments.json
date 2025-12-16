@@ -1,6 +1,6 @@
 [
     {
-        "id": 50001,
+        "id": 1001,
         "level": {
             "id": 28,
             "value": 1,
@@ -24,7 +24,7 @@
         "from_milestone_planner": false
     },
     {
-        "id": 50002,
+        "id": 1002,
         "level": {
             "id": 29,
             "value": 2,
@@ -48,7 +48,7 @@
         "from_milestone_planner": false
     },
     {
-        "id": 50003,
+        "id": 1003,
         "level": {
             "id": 30,
             "value": 3,
@@ -72,7 +72,7 @@
         "from_milestone_planner": false
     },
     {
-        "id": 50004,
+        "id": 1004,
         "level": {
             "id": 31,
             "value": 4,
@@ -96,7 +96,7 @@
         "from_milestone_planner": false
     },
     {
-        "id": 50005,
+        "id": 1005,
         "level": {
             "id": 32,
             "value": 5,
@@ -120,7 +120,7 @@
         "from_milestone_planner": false
     },
     {
-        "id": 50006,
+        "id": 1006,
         "level": {
             "id": 28,
             "value": 1,
@@ -144,7 +144,7 @@
         "from_milestone_planner": false
     },
     {
-        "id": 50007,
+        "id": 1007,
         "level": {
             "id": 29,
             "value": 2,
@@ -168,7 +168,7 @@
         "from_milestone_planner": false
     },
     {
-        "id": 50008,
+        "id": 1008,
         "level": {
             "id": 30,
             "value": 3,
@@ -192,7 +192,7 @@
         "from_milestone_planner": false
     },
     {
-        "id": 50009,
+        "id": 1009,
         "level": {
             "id": 31,
             "value": 4,
@@ -216,7 +216,7 @@
         "from_milestone_planner": false
     },
     {
-        "id": 50010,
+        "id": 1010,
         "level": {
             "id": 28,
             "value": 1,
@@ -240,7 +240,7 @@
         "from_milestone_planner": false
     },
     {
-        "id": 50011,
+        "id": 1011,
         "level": {
             "id": 28,
             "value": 1,

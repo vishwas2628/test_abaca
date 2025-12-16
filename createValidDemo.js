@@ -312,15 +312,50 @@ async function main() {
         // Sort by ID
         uniqueCompanies.sort((a, b) => a.id - b.id);
 
-        // Deduplicate Assessments
+        // Deduplicate Assessments & Ensure 1:1 Mapping with ID match
         const uniqueAssessments = [];
         const assessMap = new Map();
+
+        // Load existing assessments into map by 'evaluated' (Company ID) to preserve data if possible
         for (const item of assessments) {
-            assessMap.set(item.id, item);
+            assessMap.set(item.evaluated, item);
         }
-        for (const item of assessMap.values()) {
-            uniqueAssessments.push(item);
+
+        // Rebuild assessments list based on Companies
+        for (const company of uniqueCompanies) {
+            let assessment = assessMap.get(company.id);
+            if (!assessment) {
+                console.log(`Creating missing assessment for company ${company.id}...`);
+                // Create default assessment if missing
+                assessment = {
+                    id: company.id, // Enforce same ID
+                    level: {
+                        id: 29,
+                        value: 2,
+                        title: "Validating the Problem-Solution Fit",
+                        description: "Standard initial assessment.",
+                        typical_funding: "Grants, Angel Investors",
+                        group: 2
+                    },
+                    created_at: new Date().toISOString(),
+                    updated_at: new Date().toISOString(),
+                    data: [{ level: 2, category: company.sectors && company.sectors[0] ? company.sectors[0].id : 0 }],
+                    user: 3000 + company.id, // Mock user ID
+                    evaluated: company.id,
+                    hash_token: `token${company.id}`,
+                    state: 2,
+                    from_milestone_planner: false
+                };
+            } else {
+                // Ensure ID matches Company ID
+                if (assessment.id !== company.id) {
+                    console.log(`Updating assessment ID from ${assessment.id} to ${company.id}`);
+                    assessment.id = company.id;
+                }
+            }
+            uniqueAssessments.push(assessment);
         }
+
         uniqueAssessments.sort((a, b) => a.id - b.id);
 
         // Deduplicate QwR Responses
