@@ -112,6 +112,9 @@ async function main() {
             }
             if (!industryName) industryName = industries[0];
 
+            // Store industry for later use in QwR
+            company._tempIndustry = industryName;
+
             let acts = await getActivities(industryName);
             if (!acts || acts.length === 0) {
                 console.error("  No activities found!");
@@ -173,6 +176,7 @@ async function main() {
                 created_at: new Date().toISOString(),
                 updated_at: new Date().toISOString()
             };
+            newCompany._tempIndustry = newIndustryName; // Store for QwR
             companies.push(newCompany);
 
             // Add corresponding assessment (Needed for 1:1 mapping)
@@ -210,7 +214,7 @@ async function main() {
                 // Simplified: Just create default if mapping ID not found
                 console.log(`Creating missing assessment for company ${company.id}...`);
                 assessment = {
-                    id: company.id,
+                    id: company.id, // Enforce same ID
                     level: {
                         id: 29,
                         value: 2,
@@ -255,6 +259,9 @@ async function main() {
             answers: [],
             responses: []
         }));
+
+        // Pick 5 valid countries from reference to use in breakdown
+        const validCountryCodes = countries.slice(0, 5).map(c => c.code);
 
         for (const company of uniqueCompanies) {
             const createdAt = company.created_at || new Date().toISOString();
@@ -328,19 +335,46 @@ async function main() {
                 created_at: createdAt
             });
 
-            // 7. Activity Breakdown
-            // Ensure valid structure: [{ activityId, countryCode, weight: 1 }]
-            // Use company.sectors[0].id which we ensured relates to real Activity ID
-            const activityId = (company.sectors && company.sectors[0]) ? company.sectors[0].id : 0;
-            const breakdown = [{
-                activityId: activityId,
-                countryCode: countryCode,
-                weight: 1
-            }];
+            // 7. Activity Breakdown (Complex)
+            // Fetch activities for the current company's industry (stored in _tempIndustry)
+            const companyIndustryName = company._tempIndustry || (company.sectors && company.sectors[0] ? company.sectors[0].name : "General");
+            const acts = await getActivities(companyIndustryName);
+
+            const breakdownItems = [];
+
+            // Use up to 12 activities from the fetched list
+            const availableActs = acts.slice(0, 12);
+            if (availableActs.length === 0) availableActs.push({ id: 0, name: "General" }); // Fallback if no activities found
+
+            // We want ~60 items total (12 acts * 5 countries) to match the example density
+            // If fewer acts, we repeat them.
+            const totalItems = 60;
+            const weightPerItem = parseFloat((1 / totalItems).toFixed(4)); // approx 0.01666...
+
+            let curActIdx = 0;
+            for (let i = 0; i < 12; i++) { // 12 "slots" of activities
+                const act = availableActs[curActIdx % availableActs.length];
+                curActIdx++;
+
+                for (const code of validCountryCodes) {
+                    breakdownItems.push({
+                        activityId: act.id,
+                        countryCode: code,
+                        weight: weightPerItem
+                    });
+                }
+            }
+
+            // Normalize weights explicitly strictly to 1.0 to avoid floating point issues
+            const currentSum = breakdownItems.reduce((acc, item) => acc + item.weight, 0);
+            const diff = 1.0 - currentSum;
+            if (breakdownItems.length > 0) {
+                breakdownItems[0].weight += diff; // Dump remainder on first item
+            }
 
             newQwR[6].responses.push({ // ID 7
                 id: 70000 + company.id,
-                value: JSON.stringify(breakdown), // JSON stringified as requested
+                value: JSON.stringify(breakdownItems), // JSON stringified as requested
                 user_profile__company_id: company.id,
                 company_name: company.name,
                 created_at: createdAt
