@@ -324,8 +324,17 @@ async function main() {
                 "MA": "MAD", "ZA": "ZAR", "CN": "CNY", "DE": "EUR", "FR": "EUR"
             };
 
-            // Fallback to USD if unknown
-            const currency = countryCurrencyMap[countryCode] || DEFAULT_CURRENCY;
+            // Valid currencies supported by Vested Impact API
+            const supportedCurrencies = new Set([
+                'AUD', 'BRL', 'CAD', 'CNY', 'DKK', 'EUR', 'HKD', 'INR', 'JPY',
+                'MXN', 'TWD', 'NZD', 'NOK', 'GBP', 'SGD', 'ZAR', 'KRW', 'SEK', 'CHF', 'USD'
+            ]);
+
+            // Fallback to USD if unknown or not supported
+            let currency = countryCurrencyMap[countryCode] || DEFAULT_CURRENCY;
+            if (!supportedCurrencies.has(currency)) {
+                currency = 'USD';
+            }
 
             newQwR[3].responses.push({ // ID 4
                 id: 40000 + company.id,
