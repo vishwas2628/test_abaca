@@ -174,77 +174,77 @@
         "responses": [
             {
                 "id": 31001,
-                "value": "54",
+                "value": "77",
                 "user_profile__company_id": 1001,
                 "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 31002,
-                "value": "356",
+                "value": "114",
                 "user_profile__company_id": 1002,
                 "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 31003,
-                "value": "71",
+                "value": "165",
                 "user_profile__company_id": 1003,
                 "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 31004,
-                "value": "78",
+                "value": "269",
                 "user_profile__company_id": 1004,
                 "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 31005,
-                "value": "312",
+                "value": "117",
                 "user_profile__company_id": 1005,
                 "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 31006,
-                "value": "183",
+                "value": "29",
                 "user_profile__company_id": 1006,
                 "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 31007,
-                "value": "165",
+                "value": "343",
                 "user_profile__company_id": 1007,
                 "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 31008,
-                "value": "23",
+                "value": "113",
                 "user_profile__company_id": 1008,
                 "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 31009,
-                "value": "244",
+                "value": "313",
                 "user_profile__company_id": 1009,
                 "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 31010,
-                "value": "64",
+                "value": "63",
                 "user_profile__company_id": 1010,
                 "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 31011,
-                "value": "318",
+                "value": "205",
                 "user_profile__company_id": 1011,
                 "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
@@ -342,77 +342,77 @@
         "responses": [
             {
                 "id": 51001,
-                "value": "702474",
+                "value": "428318",
                 "user_profile__company_id": 1001,
                 "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 51002,
-                "value": "495951",
+                "value": "977345",
                 "user_profile__company_id": 1002,
                 "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 51003,
-                "value": "422475",
+                "value": "146606",
                 "user_profile__company_id": 1003,
                 "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 51004,
-                "value": "768323",
+                "value": "170045",
                 "user_profile__company_id": 1004,
                 "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 51005,
-                "value": "371119",
+                "value": "969276",
                 "user_profile__company_id": 1005,
                 "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 51006,
-                "value": "95480",
+                "value": "849094",
                 "user_profile__company_id": 1006,
                 "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 51007,
-                "value": "265110",
+                "value": "694618",
                 "user_profile__company_id": 1007,
                 "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 51008,
-                "value": "276700",
+                "value": "570330",
                 "user_profile__company_id": 1008,
                 "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 51009,
-                "value": "771002",
+                "value": "375587",
                 "user_profile__company_id": 1009,
                 "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 51010,
-                "value": "795403",
+                "value": "914698",
                 "user_profile__company_id": 1010,
                 "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 51011,
-                "value": "546647",
+                "value": "343014",
                 "user_profile__company_id": 1011,
                 "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
@@ -426,77 +426,77 @@
         "responses": [
             {
                 "id": 61001,
-                "value": "0.03",
+                "value": "-0.06",
                 "user_profile__company_id": 1001,
                 "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 61002,
-                "value": "0.28",
+                "value": "0.35",
                 "user_profile__company_id": 1002,
                 "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 61003,
-                "value": "0.34",
+                "value": "-0.01",
                 "user_profile__company_id": 1003,
                 "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 61004,
-                "value": "-0.00",
+                "value": "0.46",
                 "user_profile__company_id": 1004,
                 "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 61005,
-                "value": "-0.08",
+                "value": "0.01",
                 "user_profile__company_id": 1005,
                 "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 61006,
-                "value": "0.46",
+                "value": "0.29",
                 "user_profile__company_id": 1006,
                 "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 61007,
-                "value": "0.41",
+                "value": "0.13",
                 "user_profile__company_id": 1007,
                 "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 61008,
-                "value": "0.45",
+                "value": "0.09",
                 "user_profile__company_id": 1008,
                 "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 61009,
-                "value": "0.29",
+                "value": "0.41",
                 "user_profile__company_id": 1009,
                 "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 61010,
-                "value": "0.09",
+                "value": "0.39",
                 "user_profile__company_id": 1010,
                 "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 61011,
-                "value": "0.11",
+                "value": "0.37",
                 "user_profile__company_id": 1011,
                 "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
@@ -510,77 +510,77 @@
         "responses": [
             {
                 "id": 71001,
-                "value": "[{\"activityId\":151,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":151,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":151,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":151,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":151,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":226,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":226,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":226,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":226,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":226,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":271,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":271,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":271,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":271,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":271,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":281,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":281,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":281,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":281,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":281,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":306,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":306,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":306,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":306,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":306,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":339,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":339,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":339,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":339,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":339,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":348,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":348,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":348,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":348,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":348,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":397,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":397,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":397,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":397,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":397,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":418,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":418,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":418,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":418,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":418,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":436,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":436,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":436,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":436,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":436,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":17312,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":17312,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":17312,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":17312,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":17312,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":474,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":474,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":474,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":474,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":474,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":306,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":306,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":306,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":306,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":306,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1001,
                 "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 71002,
-                "value": "[{\"activityId\":26256,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":26256,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26256,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26256,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26256,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26290,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26290,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26290,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26290,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26290,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26315,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26315,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26315,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26315,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26315,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":132,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":132,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":132,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":132,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":132,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26338,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26338,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26338,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26338,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26338,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":14507,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":14507,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":14507,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":14507,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":14507,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":2,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":2,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":2,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":2,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":2,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":17,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":17,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":17,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":17,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":17,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":31,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":31,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":31,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":31,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":31,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":27220,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":27220,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":27220,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":27220,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":27220,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":27253,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":27253,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":27253,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":27253,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":27253,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":27187,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":27187,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":27187,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":27187,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":27187,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":3171,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":3171,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":3171,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":3171,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":3171,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1002,
                 "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 71003,
-                "value": "[{\"activityId\":29489,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":29489,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":29489,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":29489,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":29489,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":18960,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":18960,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":18960,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":18960,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":18960,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":18996,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":18996,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":18996,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":18996,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":18996,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":19798,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":19798,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":19798,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":19798,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":19798,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":16537,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":16537,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":16537,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":16537,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":16537,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":16516,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":16516,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":16516,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":16516,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":16516,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":16386,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":16386,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":16386,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":16386,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":16386,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":1866,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":1866,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":1866,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":1866,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":1866,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":16408,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":16408,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":16408,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":16408,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":16408,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":20050,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":20050,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":20050,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":20050,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":20050,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":20183,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":20183,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":20183,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":20183,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":20183,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":20243,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":20243,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":20243,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":20243,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":20243,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":11633,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":11633,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":11633,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":11633,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":11633,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1003,
                 "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 71004,
-                "value": "[{\"activityId\":26242,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":26242,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26242,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26242,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26242,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":98,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":98,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":98,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":98,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":98,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26301,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26301,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26301,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26301,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26301,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":159,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":159,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":159,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":159,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":159,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":223,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":223,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":223,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":223,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":223,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":255,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":255,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":255,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":255,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":255,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":28393,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":28393,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":28393,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":28393,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":28393,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":315,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":315,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":315,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":315,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":315,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":359,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":359,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":359,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":359,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":359,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":400,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":400,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":400,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":400,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":400,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":409,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":409,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":409,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":409,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":409,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25913,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25913,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25913,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25913,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25913,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":7645,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":7645,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":7645,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":7645,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":7645,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1004,
                 "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 71005,
-                "value": "[{\"activityId\":30192,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":30192,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":30192,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":30192,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":30192,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":23707,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":23707,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":23707,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":23707,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":23707,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":28726,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":28726,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":28726,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":28726,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":28726,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":17339,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":17339,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":17339,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":17339,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":17339,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":30198,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":30198,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":30198,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":30198,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":30198,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":19306,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":19306,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":19306,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":19306,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":19306,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25660,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25660,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25660,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25660,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25660,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":1042,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":1042,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":1042,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":1042,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":1042,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26425,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26425,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26425,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26425,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26425,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":24667,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":24667,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":24667,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":24667,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":24667,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26488,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26488,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26488,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26488,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26488,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26515,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26515,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26515,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26515,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26515,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":18386,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":18386,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":18386,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":18386,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":18386,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1005,
                 "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 71006,
-                "value": "[{\"activityId\":44,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":44,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":44,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":44,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":44,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":27233,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":27233,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":27233,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":27233,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":27233,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":27266,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":27266,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":27266,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":27266,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":27266,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":27200,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":27200,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":27200,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":27200,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":27200,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":119,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":119,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":119,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":119,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":119,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":245,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":245,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":245,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":245,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":245,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":28707,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":28707,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":28707,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":28707,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":28707,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":452,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":452,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":452,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":452,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":452,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":531,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":531,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":531,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":531,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":531,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":702,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":702,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":702,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":702,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":702,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":942,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":942,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":942,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":942,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":942,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":1353,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":1353,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":1353,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":1353,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":1353,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":6029,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":6029,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":6029,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":6029,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":6029,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1006,
                 "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 71007,
-                "value": "[{\"activityId\":26278,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":26278,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26278,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26278,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26278,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26337,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26337,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26337,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26337,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26337,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":17492,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":17492,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":17492,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":17492,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":17492,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":583,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":583,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":583,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":583,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":583,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25829,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25829,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25829,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25829,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25829,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25830,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25830,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25830,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25830,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25830,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25831,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25831,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25831,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25831,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25831,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":20227,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":20227,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":20227,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":20227,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":20227,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25835,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25835,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25835,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25835,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25835,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":18086,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":18086,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":18086,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":18086,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":18086,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25445,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25445,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25445,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25445,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25445,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":3528,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":3528,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":3528,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":3528,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":3528,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":6795,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":6795,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":6795,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":6795,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":6795,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1007,
                 "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 71008,
-                "value": "[{\"activityId\":29494,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":29494,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":29494,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":29494,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":29494,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":18965,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":18965,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":18965,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":18965,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":18965,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":19001,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":19001,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":19001,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":19001,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":19001,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":19803,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":19803,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":19803,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":19803,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":19803,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":16541,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":16541,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":16541,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":16541,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":16541,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":16520,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":16520,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":16520,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":16520,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":16520,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":16391,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":16391,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":16391,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":16391,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":16391,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":1870,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":1870,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":1870,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":1870,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":1870,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":16413,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":16413,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":16413,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":16413,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":16413,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":20055,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":20055,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":20055,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":20055,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":20055,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":20188,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":20188,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":20188,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":20188,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":20188,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":20248,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":20248,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":20248,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":20248,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":20248,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":22718,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":22718,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":22718,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":22718,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":22718,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1008,
                 "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 71009,
-                "value": "[{\"activityId\":27994,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":27994,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":27994,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":27994,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":27994,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25630,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25630,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25630,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25630,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25630,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":919,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":919,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":919,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":919,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":919,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":2588,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":2588,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":2588,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":2588,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":2588,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":18035,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":18035,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":18035,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":18035,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":18035,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":2773,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":2773,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":2773,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":2773,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":2773,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25462,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25462,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25462,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25462,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25462,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":19656,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":19656,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":19656,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":19656,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":19656,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25632,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25632,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25632,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25632,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25632,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":3912,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":3912,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":3912,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":3912,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":3912,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":19716,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":19716,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":19716,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":19716,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":19716,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":19730,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":19730,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":19730,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":19730,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":19730,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":3912,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":3912,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":3912,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":3912,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":3912,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1009,
                 "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 71010,
-                "value": "[{\"activityId\":26225,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":26225,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26225,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26225,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26225,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":77,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":77,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":77,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":77,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":77,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26266,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26266,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26266,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26266,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26266,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26281,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26281,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26281,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26281,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26281,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26325,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26325,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26325,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26325,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26325,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":147,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":147,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":147,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":147,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":147,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":184,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":184,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":184,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":184,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":184,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26124,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26124,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26124,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26124,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26124,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":206,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":206,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":206,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":206,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":206,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":25811,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":25811,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":25811,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":25811,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":25811,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":269,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":269,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":269,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":269,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":269,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":297,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":297,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":297,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":297,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":297,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":27565,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":27565,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":27565,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":27565,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":27565,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1010,
                 "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 71011,
-                "value": "[{\"activityId\":26256,\"countryCode\":\"AF\",\"weight\":0.014699999999998666},{\"activityId\":26256,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26256,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26256,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26256,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26290,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26290,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26290,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26290,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26290,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26315,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26315,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26315,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26315,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26315,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":132,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":132,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":132,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":132,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":132,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":26338,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":26338,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":26338,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":26338,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":26338,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":14507,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":14507,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":14507,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":14507,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":14507,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":2,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":2,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":2,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":2,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":2,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":17,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":17,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":17,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":17,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":17,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":31,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":31,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":31,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":31,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":31,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":27220,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":27220,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":27220,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":27220,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":27220,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":27253,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":27253,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":27253,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":27253,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":27253,\"countryCode\":\"AD\",\"weight\":0.0167},{\"activityId\":27187,\"countryCode\":\"AF\",\"weight\":0.0167},{\"activityId\":27187,\"countryCode\":\"AL\",\"weight\":0.0167},{\"activityId\":27187,\"countryCode\":\"DZ\",\"weight\":0.0167},{\"activityId\":27187,\"countryCode\":\"AS\",\"weight\":0.0167},{\"activityId\":27187,\"countryCode\":\"AD\",\"weight\":0.0167}]",
+                "value": "[{\"activityId\":2814,\"countryCode\":\"AF\",\"weight\":0.2},{\"activityId\":2814,\"countryCode\":\"AL\",\"weight\":0.2},{\"activityId\":2814,\"countryCode\":\"DZ\",\"weight\":0.2},{\"activityId\":2814,\"countryCode\":\"AS\",\"weight\":0.2},{\"activityId\":2814,\"countryCode\":\"AD\",\"weight\":0.2}]",
                 "user_profile__company_id": 1011,
                 "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"

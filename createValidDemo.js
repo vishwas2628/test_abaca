@@ -42,6 +42,20 @@ const companyConfig = [
 
 const DEFAULT_CURRENCY = 'USD';
 
+const SAFE_ACTIVITY_IDS = {
+    "1001": 306,
+    "1002": 3171,
+    "1003": 11633,
+    "1004": 7645,
+    "1005": 18386,
+    "1006": 6029,
+    "1007": 6795,
+    "1008": 22718,
+    "1009": 3912,
+    "1010": 27565,
+    "1011": 2814
+};
+
 async function main() {
     try {
         // 1. Fetch Reference Data
@@ -347,38 +361,46 @@ async function main() {
             // 7. Activity Breakdown (Complex)
             // Fetch activities for the current company's industry (stored in _tempIndustry)
             const companyIndustryName = company._tempIndustry || (company.sectors && company.sectors[0] ? company.sectors[0].name : "General");
-            const acts = await getActivities(companyIndustryName);
 
             const breakdownItems = [];
+            const safeId = SAFE_ACTIVITY_IDS[company.id];
 
-            // Use up to 12 activities from the fetched list
-            const availableActs = acts.slice(0, 12);
-            if (availableActs.length === 0) availableActs.push({ id: 0, name: "General" }); // Fallback if no activities found
+            if (safeId) {
+                // Use safe ID split across valid countries
+                const weightPerCountry = 1.0 / validCountryCodes.length; // usually 0.2
 
-            // We want ~60 items total (12 acts * 5 countries) to match the example density
-            // If fewer acts, we repeat them.
-            const totalItems = 60;
-            const weightPerItem = parseFloat((1 / totalItems).toFixed(4)); // approx 0.01666...
-
-            let curActIdx = 0;
-            for (let i = 0; i < 12; i++) { // 12 "slots" of activities
-                const act = availableActs[curActIdx % availableActs.length];
-                curActIdx++;
-
-                for (const code of validCountryCodes) {
+                validCountryCodes.forEach(cc => {
                     breakdownItems.push({
-                        activityId: act.id,
-                        countryCode: code,
-                        weight: weightPerItem
+                        activityId: safeId,
+                        countryCode: cc,
+                        weight: weightPerCountry
+                    });
+                });
+            } else {
+                // Fallback: fetch random
+                const acts = await getActivities(companyIndustryName);
+                if (acts && acts.activities && acts.activities.length > 0) {
+                    const limitedActs = acts.activities.slice(0, 12);
+                    const weightPerItem = 1.0 / (limitedActs.length * validCountryCodes.length);
+
+                    limitedActs.forEach(act => {
+                        validCountryCodes.forEach(cc => {
+                            breakdownItems.push({
+                                activityId: act.id,
+                                countryCode: cc,
+                                weight: weightPerItem
+                            });
+                        });
                     });
                 }
             }
 
             // Normalize weights explicitly strictly to 1.0 to avoid floating point issues
-            const currentSum = breakdownItems.reduce((acc, item) => acc + item.weight, 0);
-            const diff = 1.0 - currentSum;
             if (breakdownItems.length > 0) {
-                breakdownItems[0].weight += diff; // Dump remainder on first item
+                const currentSum = breakdownItems.reduce((acc, item) => acc + item.weight, 0);
+                const diff = 1.0 - currentSum;
+                // Add diff to first item to ensure exact 1.0 sum
+                breakdownItems[0].weight += diff;
             }
 
             newQwR[6].responses.push({ // ID 7
