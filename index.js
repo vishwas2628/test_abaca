@@ -1,7 +1,8 @@
-// require('dotenv').config();
+const port = 3001;
+
+require('dotenv').config();
 const express = require('express');
 const app = express();
-const port = 3001;
 
 app.use(express.json());
 
@@ -19,10 +20,8 @@ app.use('/matching', questionAnsRespoRouter);
 app.use('/user/company-lists', groupRouter);
 
 
-// if (require.main === module) {
-//     app.listen(port, () => {
-//         console.log(`Mini service listening at http://localhost:${port}`);
-//     });
-// }
+app.listen(port, () => {
+    console.log(`Mini service listening at http://localhost:${port}`);
+});
 
 module.exports = app;
