@@ -1,10 +1,11 @@
 
-import { httpServerHandler } from 'cloudflare:node';
-import { createServer } from 'node:http';
+import serverless from 'serverless-http';
 import app from './index.js';
 
-const server = createServer(app);
+const handler = serverless(app);
 
 export default {
-    fetch: httpServerHandler(server)
+    fetch(request, env, ctx) {
+        return handler(request, env, ctx);
+    }
 };
