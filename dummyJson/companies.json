@@ -17,7 +17,8 @@
                 "city": "Addis Ababa",
                 "country": "Ethiopia",
                 "latitude": 9.005401,
-                "longitude": 38.763611
+                "longitude": 38.763611,
+                "country_code": "ET"
             }
         ],
         "sectors": [
@@ -50,7 +51,8 @@
                 "city": "Nairobi",
                 "country": "Kenya",
                 "latitude": -1.2633,
-                "longitude": 36.8024
+                "longitude": 36.8024,
+                "country_code": "KE"
             }
         ],
         "sectors": [
@@ -83,7 +85,8 @@
                 "city": "Kampala",
                 "country": "Uganda",
                 "latitude": 0.3476,
-                "longitude": 32.5825
+                "longitude": 32.5825,
+                "country_code": "UG"
             }
         ],
         "sectors": [
@@ -116,7 +119,8 @@
                 "city": "Lagos",
                 "country": "Nigeria",
                 "latitude": 6.5244,
-                "longitude": 3.3792
+                "longitude": 3.3792,
+                "country_code": "NG"
             }
         ],
         "sectors": [
@@ -149,7 +153,8 @@
                 "city": "Accra",
                 "country": "Ghana",
                 "latitude": 5.6037,
-                "longitude": -0.187
+                "longitude": -0.187,
+                "country_code": "GH"
             }
         ],
         "sectors": [
@@ -182,7 +187,8 @@
                 "city": "Kigali",
                 "country": "Rwanda",
                 "latitude": -1.9441,
-                "longitude": 30.0619
+                "longitude": 30.0619,
+                "country_code": "RW"
             }
         ],
         "sectors": [
@@ -215,7 +221,8 @@
                 "city": "Dar es Salaam",
                 "country": "Tanzania",
                 "latitude": -6.7924,
-                "longitude": 39.2083
+                "longitude": 39.2083,
+                "country_code": "TZ"
             }
         ],
         "sectors": [
@@ -248,7 +255,8 @@
                 "city": "Cairo",
                 "country": "Egypt",
                 "latitude": 30.0444,
-                "longitude": 31.2357
+                "longitude": 31.2357,
+                "country_code": "EG"
             }
         ],
         "sectors": [
@@ -281,7 +289,8 @@
                 "city": "Casablanca",
                 "country": "Morocco",
                 "latitude": 33.5731,
-                "longitude": -7.5898
+                "longitude": -7.5898,
+                "country_code": "MA"
             }
         ],
         "sectors": [
@@ -314,7 +323,8 @@
                 "city": "Cape Town",
                 "country": "South Africa",
                 "latitude": -33.9249,
-                "longitude": 18.4241
+                "longitude": 18.4241,
+                "country_code": "ZA"
             }
         ],
         "sectors": [
