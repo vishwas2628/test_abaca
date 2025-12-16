@@ -358,27 +358,129 @@ async function main() {
 
         uniqueAssessments.sort((a, b) => a.id - b.id);
 
-        // Deduplicate QwR Responses
-        for (const q of qwr) {
-            const uniqueResponses = [];
-            const respMap = new Map();
-            for (const r of q.responses) {
-                // Key by user_profile__company_id to simplify (assuming 1 response per company per question)
-                // Or key by ID. But IDs might be duplicated if I blindly pushed 5011.
-                // If I used fixed ID 5011, then map.set(5011) keeps last one.
-                respMap.set(r.id, r);
-            }
-            for (const r of respMap.values()) {
-                uniqueResponses.push(r);
-            }
-            uniqueResponses.sort((a, b) => a.id - b.id); // Sort by ID?
-            q.responses = uniqueResponses;
+        // 4. Rebuild Questions with Responses (QwR) from Scratch
+        console.log("Rebuilding Questions and Responses...");
+
+        // Define Question Definitions
+        const questionDefs = [
+            { id: 1, text: "Industry", type: "text" }, // Not 2005 breakdown, just simple text or similar
+            { id: 2, text: "HQ Country Code", type: "text" },
+            { id: 3, text: "Number of Employees", type: "number" },
+            { id: 4, text: "Currency", type: "text" }, // Revenue Currency
+            { id: 5, text: "Annual Revenue", type: "number" },
+            { id: 6, text: "Revenue Growth", type: "number" },
+            { id: 7, text: "Activity Breakdown", type: "json" } // THE Breakdown
+        ];
+
+        const newQwR = questionDefs.map(def => ({
+            id: def.id,
+            text: def.text,
+            answers: [], // Could populate options if needed
+            responses: []
+        }));
+
+        // Generate Responses for each Company
+        for (const company of uniqueCompanies) {
+            // Helpers
+            const createdAt = company.created_at || new Date().toISOString();
+            const config = companyConfig.find(c => company.name.includes(c.name));
+
+            // 1. Industry (Use Sector Name or Config Keyword)
+            // Company sector is {id, name}
+            const industryVal = (company.sectors && company.sectors[0]) ? company.sectors[0].name : (config ? config.keyword : "General");
+
+            newQwR[0].responses.push({ // ID 1
+                id: 10000 + company.id,
+                value: industryVal,
+                user_profile__company_id: company.id,
+                created_at: createdAt
+            });
+
+            // 2. HQ Country Code
+            // company.locations[0].country_code should be set by now
+            const countryCode = (company.locations && company.locations[0]) ? company.locations[0].country_code : "US";
+
+            newQwR[1].responses.push({ // ID 2
+                id: 20000 + company.id,
+                value: countryCode,
+                user_profile__company_id: company.id,
+                created_at: createdAt
+            });
+
+            // 3. Number of Employees
+            // Random or fixed
+            const employees = Math.floor(Math.random() * 400) + 10; // 10 to 410
+
+            newQwR[2].responses.push({ // ID 3
+                id: 30000 + company.id,
+                value: employees.toString(),
+                user_profile__company_id: company.id,
+                created_at: createdAt
+            });
+
+            // 4. Currency
+            const currency = config ? config.currency : DEFAULT_CURRENCY;
+
+            newQwR[3].responses.push({ // ID 4
+                id: 40000 + company.id,
+                value: currency,
+                user_profile__company_id: company.id,
+                created_at: createdAt
+            });
+
+            // 5. Annual Revenue
+            const revenue = Math.floor(Math.random() * 1000000) + 50000; // 50k to 1.05M
+
+            newQwR[4].responses.push({ // ID 5
+                id: 50000 + company.id,
+                value: revenue.toString(),
+                user_profile__company_id: company.id,
+                created_at: createdAt
+            });
+
+            // 6. Revenue Growth
+            // -0.1 to 0.5
+            const growth = (Math.random() * 0.6 - 0.1).toFixed(2);
+
+            newQwR[5].responses.push({ // ID 6
+                id: 60000 + company.id,
+                value: growth,
+                user_profile__company_id: company.id,
+                created_at: createdAt
+            });
+
+            // 7. Activity Breakdown
+            // Ensure valid structure: [{ activityId, countryCode, weight: 1 }]
+            // Use company.sectors[0].id which we ensured relates to real Activity ID
+            const activityId = (company.sectors && company.sectors[0]) ? company.sectors[0].id : 0;
+            const breakdown = [{
+                activityId: activityId,
+                countryCode: countryCode,
+                weight: 1
+            }];
+
+            newQwR[6].responses.push({ // ID 7
+                id: 70000 + company.id,
+                value: JSON.stringify(breakdown), // JSON stringified as requested
+                user_profile__company_id: company.id,
+                created_at: createdAt
+            });
         }
+
+        // Replace the global qwr object to be written
+        // qwr is a const in outer scope? We assigned it from JSON.parse. 
+        // We can just overwrite it if we declared it with const? 
+        // Wait, 'const qwr' means reference is constant. The content is mutable.
+        // But here I'm replacing the whole structure. 
+        // Better to empty the array and push new items if qwr is an array.
+        // Or if I write `qwr` var to file, I need to make sure `qwr` holds the new data.
+        // In this scope, I'll just change the write step to use `newQwR`.
+
 
         // 5. Save Files
         fs.writeFileSync(companiesPath, JSON.stringify(uniqueCompanies, null, 4));
         fs.writeFileSync(assessmentsPath, JSON.stringify(uniqueAssessments, null, 4));
-        fs.writeFileSync(qwrPath, JSON.stringify(qwr, null, 4));
+        fs.writeFileSync(qwrPath, JSON.stringify(newQwR, null, 4));
 
         console.log("Successfully updated all data files!");
 
