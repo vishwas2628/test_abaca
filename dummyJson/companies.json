@@ -15,16 +15,16 @@
                 "id": 5001,
                 "formatted_address": "Bole Sub City, Addis Ababa, Ethiopia",
                 "city": "Addis Ababa",
-                "country": "Japan",
+                "country": "Ethiopia",
                 "latitude": 9.005401,
                 "longitude": 38.763611,
-                "country_code": "JP"
+                "country_code": "ET"
             }
         ],
         "sectors": [
             {
-                "id": 18968,
-                "name": "Aluminum Refining"
+                "id": 151,
+                "name": "Adhesives"
             }
         ],
         "networks": [],
@@ -49,16 +49,16 @@
                 "id": 5002,
                 "formatted_address": "Westlands, Nairobi, Kenya",
                 "city": "Nairobi",
-                "country": "Japan",
+                "country": "Kenya",
                 "latitude": -1.2633,
                 "longitude": 36.8024,
-                "country_code": "JP"
+                "country_code": "KE"
             }
         ],
         "sectors": [
             {
-                "id": 19004,
-                "name": "Aluminum Rolling"
+                "id": 26256,
+                "name": "3D Printing & Additive Manufacturing for health devices"
             }
         ],
         "networks": [],
@@ -83,16 +83,16 @@
                 "id": 5003,
                 "formatted_address": "Kampala, Uganda",
                 "city": "Kampala",
-                "country": "Japan",
+                "country": "Uganda",
                 "latitude": 0.3476,
                 "longitude": 32.5825,
-                "country_code": "JP"
+                "country_code": "UG"
             }
         ],
         "sectors": [
             {
-                "id": 19806,
-                "name": "Battery & Fuel Cell Recycling"
+                "id": 29489,
+                "name": "All other converted paper products"
             }
         ],
         "networks": [],
@@ -117,16 +117,16 @@
                 "id": 5004,
                 "formatted_address": "Lagos, Nigeria",
                 "city": "Lagos",
-                "country": "Japan",
+                "country": "Nigeria",
                 "latitude": 6.5244,
                 "longitude": 3.3792,
-                "country_code": "JP"
+                "country_code": "NG"
             }
         ],
         "sectors": [
             {
-                "id": 20058,
-                "name": "Cables"
+                "id": 26242,
+                "name": "3D Printing & Additive Manufacturing for health devices"
             }
         ],
         "networks": [],
@@ -151,16 +151,16 @@
                 "id": 5005,
                 "formatted_address": "Accra, Ghana",
                 "city": "Accra",
-                "country": "Japan",
+                "country": "Ghana",
                 "latitude": 5.6037,
                 "longitude": -0.187,
-                "country_code": "JP"
+                "country_code": "GH"
             }
         ],
         "sectors": [
             {
-                "id": 20191,
-                "name": "Cellular Fiber - Olive Timber - Textiles"
+                "id": 30192,
+                "name": "Accelerated & remedial learning programmes for Out-of-School Learners"
             }
         ],
         "networks": [],
@@ -185,16 +185,16 @@
                 "id": 5006,
                 "formatted_address": "Kigali, Rwanda",
                 "city": "Kigali",
-                "country": "Japan",
+                "country": "Rwanda",
                 "latitude": -1.9441,
                 "longitude": 30.0619,
-                "country_code": "JP"
+                "country_code": "RW"
             }
         ],
         "sectors": [
             {
-                "id": 20251,
-                "name": "Cement & Concrete Self-Repair"
+                "id": 44,
+                "name": "Accounting & Tax Preparation"
             }
         ],
         "networks": [],
@@ -219,16 +219,16 @@
                 "id": 5007,
                 "formatted_address": "Dar es Salaam, Tanzania",
                 "city": "Dar es Salaam",
-                "country": "Japan",
+                "country": "Tanzania",
                 "latitude": -6.7924,
                 "longitude": 39.2083,
-                "country_code": "JP"
+                "country_code": "TZ"
             }
         ],
         "sectors": [
             {
-                "id": 29565,
-                "name": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance"
+                "id": 26278,
+                "name": "3D Printing & Additive Manufacturing for maritime industry"
             }
         ],
         "networks": [],
@@ -253,16 +253,16 @@
                 "id": 5008,
                 "formatted_address": "Cairo, Egypt",
                 "city": "Cairo",
-                "country": "Japan",
+                "country": "Egypt, Arab Rep.",
                 "latitude": 30.0444,
                 "longitude": 31.2357,
-                "country_code": "JP"
+                "country_code": "EG"
             }
         ],
         "sectors": [
             {
-                "id": 19897,
-                "name": "Construction, industrial, and general equipment rental"
+                "id": 29494,
+                "name": "All other converted paper products"
             }
         ],
         "networks": [],
@@ -287,16 +287,16 @@
                 "id": 5009,
                 "formatted_address": "Casablanca, Morocco",
                 "city": "Casablanca",
-                "country": "Japan",
+                "country": "Morocco",
                 "latitude": 33.5731,
                 "longitude": -7.5898,
-                "country_code": "JP"
+                "country_code": "MA"
             }
         ],
         "sectors": [
             {
-                "id": 25526,
-                "name": "Co-ownership (Business Model) with suppliers"
+                "id": 27994,
+                "name": "AI-enabled"
             }
         ],
         "networks": [],
@@ -321,16 +321,16 @@
                 "id": 5010,
                 "formatted_address": "Cape Town, South Africa",
                 "city": "Cape Town",
-                "country": "Japan",
+                "country": "South Africa",
                 "latitude": -33.9249,
                 "longitude": 18.4241,
-                "country_code": "JP"
+                "country_code": "ZA"
             }
         ],
         "sectors": [
             {
-                "id": 18134,
-                "name": "Deep Sea Freight"
+                "id": 26225,
+                "name": "3D Printing & Additive Manufacturing for construction"
             }
         ],
         "networks": [],
@@ -338,5 +338,39 @@
         "access_hash": "hash1010",
         "created_at": "2023-10-05T08:50:00Z",
         "updated_at": "2024-01-15T16:00:00Z"
+    },
+    {
+        "id": 1011,
+        "type": 0,
+        "name": "CloudNine Systems",
+        "slug": "cloudnine-systems",
+        "logo": "https://via.placeholder.com/150",
+        "cover": "https://via.placeholder.com/600x200",
+        "about": "CloudNine Systems provides scalable cloud infrastructure solutions for startups.",
+        "website": "https://cloudnine.io",
+        "email": "contact@cloudnine.io",
+        "founded_date": "2023-01-01",
+        "locations": [
+            {
+                "id": 5011,
+                "formatted_address": "London, United Kingdom",
+                "city": "London",
+                "country": "United Kingdom",
+                "country_code": "GB",
+                "latitude": 51.5074,
+                "longitude": -0.1278
+            }
+        ],
+        "sectors": [
+            {
+                "id": 26256,
+                "name": "3D Printing & Additive Manufacturing for health devices"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "",
+        "access_hash": "hash1011",
+        "created_at": "2025-12-16T13:21:00.343Z",
+        "updated_at": "2025-12-16T13:21:00.437Z"
     }
 ]

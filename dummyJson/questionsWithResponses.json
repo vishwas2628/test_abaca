@@ -69,6 +69,12 @@
                 "value": "50",
                 "user_profile__company_id": 1010,
                 "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5011,
+                "value": "10",
+                "user_profile__company_id": 1011,
+                "created_at": "2025-12-16T13:21:00.438Z"
             }
         ]
     },
@@ -101,7 +107,7 @@
         "responses": [
             {
                 "id": 5101,
-                "value": "USD",
+                "value": "ETB",
                 "user_profile__company_id": 1001,
                 "created_at": "2023-11-01T10:00:00Z"
             },
@@ -113,7 +119,7 @@
             },
             {
                 "id": 5103,
-                "value": "USD",
+                "value": "UGX",
                 "user_profile__company_id": 1003,
                 "created_at": "2023-11-01T10:00:00Z"
             },
@@ -158,6 +164,12 @@
                 "value": "ZAR",
                 "user_profile__company_id": 1010,
                 "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5111,
+                "value": "GBP",
+                "user_profile__company_id": 1011,
+                "created_at": "2025-12-16T13:21:00.438Z"
             }
         ]
     },
@@ -231,6 +243,12 @@
                 "value": "250000",
                 "user_profile__company_id": 1010,
                 "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5211,
+                "value": "100000",
+                "user_profile__company_id": 1011,
+                "created_at": "2025-12-16T13:21:00.438Z"
             }
         ]
     },
@@ -304,6 +322,12 @@
                 "value": "22",
                 "user_profile__company_id": 1010,
                 "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5311,
+                "value": "0",
+                "user_profile__company_id": 1011,
+                "created_at": "2025-12-16T13:21:00.438Z"
             }
         ]
     },
@@ -320,63 +344,69 @@
         "responses": [
             {
                 "id": 5401,
-                "value": "[{\"activityId\":101,\"countryCode\":\"JP\",\"weight\":1}]",
+                "value": "[{\"activityId\":151,\"countryCode\":\"ET\",\"weight\":1}]",
                 "user_profile__company_id": 1001,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5402,
-                "value": "[{\"activityId\":102,\"countryCode\":\"JP\",\"weight\":0.8},{\"activityId\":110,\"countryCode\":\"JP\",\"weight\":0.2}]",
+                "value": "[{\"activityId\":26256,\"countryCode\":\"KE\",\"weight\":1}]",
                 "user_profile__company_id": 1002,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5403,
-                "value": "[{\"activityId\":23613,\"countryCode\":\"JP\",\"weight\":1}]",
+                "value": "[{\"activityId\":29489,\"countryCode\":\"UG\",\"weight\":1}]",
                 "user_profile__company_id": 1003,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5404,
-                "value": "[{\"activityId\":104,\"countryCode\":\"JP\",\"weight\":0.9},{\"activityId\":115,\"countryCode\":\"JP\",\"weight\":0.1}]",
+                "value": "[{\"activityId\":26242,\"countryCode\":\"NG\",\"weight\":1}]",
                 "user_profile__company_id": 1004,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5405,
-                "value": "[{\"activityId\":105,\"countryCode\":\"JP\",\"weight\":1}]",
+                "value": "[{\"activityId\":30192,\"countryCode\":\"GH\",\"weight\":1}]",
                 "user_profile__company_id": 1005,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5406,
-                "value": "[{\"activityId\":14354,\"countryCode\":\"JP\",\"weight\":1}]",
+                "value": "[{\"activityId\":44,\"countryCode\":\"RW\",\"weight\":1}]",
                 "user_profile__company_id": 1006,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5407,
-                "value": "[{\"activityId\":101,\"countryCode\":\"JP\",\"weight\":0.6},{\"activityId\":107,\"countryCode\":\"JP\",\"weight\":0.4}]",
+                "value": "[{\"activityId\":26278,\"countryCode\":\"TZ\",\"weight\":1}]",
                 "user_profile__company_id": 1007,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5408,
-                "value": "[{\"activityId\":108,\"countryCode\":\"JP\",\"weight\":1}]",
+                "value": "[{\"activityId\":29494,\"countryCode\":\"EG\",\"weight\":1}]",
                 "user_profile__company_id": 1008,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5409,
-                "value": "[{\"activityId\":27895,\"countryCode\":\"JP\",\"weight\":1}]",
+                "value": "[{\"activityId\":27994,\"countryCode\":\"MA\",\"weight\":1}]",
                 "user_profile__company_id": 1009,
                 "created_at": "2023-11-01T10:00:00Z"
             },
             {
                 "id": 5410,
-                "value": "[{\"activityId\":110,\"countryCode\":\"JP\",\"weight\":1}]",
+                "value": "[{\"activityId\":26225,\"countryCode\":\"ZA\",\"weight\":1}]",
                 "user_profile__company_id": 1010,
                 "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5411,
+                "value": "[{\"activityId\":26256,\"countryCode\":\"GB\",\"weight\":1}]",
+                "user_profile__company_id": 1011,
+                "created_at": "2025-12-16T13:21:00.438Z"
             }
         ]
     }

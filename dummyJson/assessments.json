@@ -14,7 +14,7 @@
         "data": [
             {
                 "level": 1,
-                "category": 18968
+                "category": 151
             }
         ],
         "user": 3001,
@@ -38,7 +38,7 @@
         "data": [
             {
                 "level": 2,
-                "category": 19004
+                "category": 26256
             }
         ],
         "user": 3002,
@@ -62,7 +62,7 @@
         "data": [
             {
                 "level": 3,
-                "category": 19806
+                "category": 29489
             }
         ],
         "user": 3003,
@@ -86,7 +86,7 @@
         "data": [
             {
                 "level": 4,
-                "category": 20058
+                "category": 26242
             }
         ],
         "user": 3004,
@@ -110,7 +110,7 @@
         "data": [
             {
                 "level": 5,
-                "category": 20191
+                "category": 30192
             }
         ],
         "user": 3005,
@@ -134,7 +134,7 @@
         "data": [
             {
                 "level": 1,
-                "category": 20251
+                "category": 44
             }
         ],
         "user": 3006,
@@ -158,7 +158,7 @@
         "data": [
             {
                 "level": 2,
-                "category": 29565
+                "category": 26278
             }
         ],
         "user": 3007,
@@ -182,7 +182,7 @@
         "data": [
             {
                 "level": 3,
-                "category": 19897
+                "category": 29494
             }
         ],
         "user": 3008,
@@ -206,7 +206,7 @@
         "data": [
             {
                 "level": 4,
-                "category": 25526
+                "category": 27994
             }
         ],
         "user": 3009,
@@ -230,12 +230,36 @@
         "data": [
             {
                 "level": 1,
-                "category": 18134
+                "category": 26225
             }
         ],
         "user": 3010,
         "evaluated": 1010,
         "hash_token": "token1010",
+        "state": 2,
+        "from_milestone_planner": false
+    },
+    {
+        "id": 50011,
+        "level": {
+            "id": 28,
+            "value": 1,
+            "title": "Establishing the Founding Team",
+            "description": "You're off to a great start. The founding team has been established, and whether or not you have a product prototype or a business model, you've identified an important problem to solve. You have brought together a group of individuals who share a common vision and have complementary skills necessary to execute the initial phase of your startup. The focus at this stage is to solidify the team dynamics, agree on roles and responsibilities, and ensure everyone is committed to the long-term vision. It involves frequent brainstorming sessions, setting the initial culture, and perhaps even drafting a founders' agreement to prevent future conflicts.\r\n\r\nTypical funding options for Level 1 companies include loans or investments from friends & family, personal savings, and personal credit.",
+            "typical_funding": "Friends & Family\r\nPersonal Credit",
+            "group": 2
+        },
+        "created_at": "2025-12-16T13:21:00.437Z",
+        "updated_at": "2025-12-16T13:21:00.437Z",
+        "data": [
+            {
+                "level": 1,
+                "category": 26256
+            }
+        ],
+        "user": 3011,
+        "evaluated": 1011,
+        "hash_token": "token1011",
         "state": 2,
         "from_milestone_planner": false
     }
