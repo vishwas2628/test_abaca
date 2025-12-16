@@ -8,66 +8,77 @@
                 "id": 11001,
                 "value": "Adhesives",
                 "user_profile__company_id": 1001,
+                "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 11002,
                 "value": "3D Printing & Additive Manufacturing for health devices",
                 "user_profile__company_id": 1002,
+                "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 11003,
                 "value": "All other converted paper products",
                 "user_profile__company_id": 1003,
+                "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 11004,
                 "value": "3D Printing & Additive Manufacturing for health devices",
                 "user_profile__company_id": 1004,
+                "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 11005,
                 "value": "Accelerated & remedial learning programmes for Out-of-School Learners",
                 "user_profile__company_id": 1005,
+                "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 11006,
                 "value": "Accounting & Tax Preparation",
                 "user_profile__company_id": 1006,
+                "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 11007,
                 "value": "3D Printing & Additive Manufacturing for maritime industry",
                 "user_profile__company_id": 1007,
+                "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 11008,
                 "value": "All other converted paper products",
                 "user_profile__company_id": 1008,
+                "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 11009,
                 "value": "AI-enabled",
                 "user_profile__company_id": 1009,
+                "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 11010,
                 "value": "3D Printing & Additive Manufacturing for construction",
                 "user_profile__company_id": 1010,
+                "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 11011,
                 "value": "3D Printing & Additive Manufacturing for health devices",
                 "user_profile__company_id": 1011,
+                "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
@@ -81,66 +92,77 @@
                 "id": 21001,
                 "value": "ET",
                 "user_profile__company_id": 1001,
+                "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 21002,
                 "value": "KE",
                 "user_profile__company_id": 1002,
+                "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 21003,
                 "value": "UG",
                 "user_profile__company_id": 1003,
+                "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 21004,
                 "value": "NG",
                 "user_profile__company_id": 1004,
+                "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 21005,
                 "value": "GH",
                 "user_profile__company_id": 1005,
+                "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 21006,
                 "value": "RW",
                 "user_profile__company_id": 1006,
+                "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 21007,
                 "value": "TZ",
                 "user_profile__company_id": 1007,
+                "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 21008,
                 "value": "EG",
                 "user_profile__company_id": 1008,
+                "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 21009,
                 "value": "MA",
                 "user_profile__company_id": 1009,
+                "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 21010,
                 "value": "ZA",
                 "user_profile__company_id": 1010,
+                "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 21011,
                 "value": "GB",
                 "user_profile__company_id": 1011,
+                "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
@@ -152,68 +174,79 @@
         "responses": [
             {
                 "id": 31001,
-                "value": "337",
+                "value": "178",
                 "user_profile__company_id": 1001,
+                "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 31002,
-                "value": "167",
+                "value": "375",
                 "user_profile__company_id": 1002,
+                "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 31003,
-                "value": "167",
+                "value": "181",
                 "user_profile__company_id": 1003,
+                "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 31004,
-                "value": "133",
+                "value": "53",
                 "user_profile__company_id": 1004,
+                "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 31005,
-                "value": "211",
+                "value": "206",
                 "user_profile__company_id": 1005,
+                "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 31006,
-                "value": "301",
+                "value": "284",
                 "user_profile__company_id": 1006,
+                "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 31007,
-                "value": "140",
+                "value": "304",
                 "user_profile__company_id": 1007,
+                "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 31008,
-                "value": "187",
+                "value": "54",
                 "user_profile__company_id": 1008,
+                "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 31009,
-                "value": "120",
+                "value": "380",
                 "user_profile__company_id": 1009,
+                "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 31010,
-                "value": "105",
+                "value": "151",
                 "user_profile__company_id": 1010,
+                "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 31011,
-                "value": "165",
+                "value": "21",
                 "user_profile__company_id": 1011,
+                "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
@@ -227,66 +260,77 @@
                 "id": 41001,
                 "value": "ETB",
                 "user_profile__company_id": 1001,
+                "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 41002,
                 "value": "KES",
                 "user_profile__company_id": 1002,
+                "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 41003,
                 "value": "UGX",
                 "user_profile__company_id": 1003,
+                "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 41004,
                 "value": "NGN",
                 "user_profile__company_id": 1004,
+                "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 41005,
                 "value": "GHS",
                 "user_profile__company_id": 1005,
+                "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 41006,
                 "value": "RWF",
                 "user_profile__company_id": 1006,
+                "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 41007,
                 "value": "TZS",
                 "user_profile__company_id": 1007,
+                "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 41008,
                 "value": "EGP",
                 "user_profile__company_id": 1008,
+                "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 41009,
                 "value": "MAD",
                 "user_profile__company_id": 1009,
+                "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 41010,
                 "value": "ZAR",
                 "user_profile__company_id": 1010,
+                "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 41011,
                 "value": "GBP",
                 "user_profile__company_id": 1011,
+                "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
@@ -298,68 +342,79 @@
         "responses": [
             {
                 "id": 51001,
-                "value": "141410",
+                "value": "225803",
                 "user_profile__company_id": 1001,
+                "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 51002,
-                "value": "197820",
+                "value": "748364",
                 "user_profile__company_id": 1002,
+                "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 51003,
-                "value": "912094",
+                "value": "161161",
                 "user_profile__company_id": 1003,
+                "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 51004,
-                "value": "564102",
+                "value": "164925",
                 "user_profile__company_id": 1004,
+                "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 51005,
-                "value": "1022581",
+                "value": "155945",
                 "user_profile__company_id": 1005,
+                "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 51006,
-                "value": "836456",
+                "value": "787840",
                 "user_profile__company_id": 1006,
+                "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 51007,
-                "value": "391156",
+                "value": "500365",
                 "user_profile__company_id": 1007,
+                "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 51008,
-                "value": "184205",
+                "value": "221284",
                 "user_profile__company_id": 1008,
+                "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 51009,
-                "value": "253701",
+                "value": "54716",
                 "user_profile__company_id": 1009,
+                "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 51010,
-                "value": "338026",
+                "value": "751579",
                 "user_profile__company_id": 1010,
+                "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 51011,
-                "value": "651512",
+                "value": "229262",
                 "user_profile__company_id": 1011,
+                "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
@@ -371,68 +426,79 @@
         "responses": [
             {
                 "id": 61001,
-                "value": "0.13",
+                "value": "-0.07",
                 "user_profile__company_id": 1001,
+                "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 61002,
-                "value": "0.47",
+                "value": "-0.05",
                 "user_profile__company_id": 1002,
+                "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 61003,
-                "value": "0.47",
+                "value": "0.22",
                 "user_profile__company_id": 1003,
+                "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 61004,
-                "value": "0.35",
+                "value": "0.40",
                 "user_profile__company_id": 1004,
+                "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 61005,
-                "value": "0.19",
+                "value": "0.35",
                 "user_profile__company_id": 1005,
+                "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 61006,
-                "value": "0.04",
+                "value": "0.27",
                 "user_profile__company_id": 1006,
+                "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 61007,
-                "value": "0.18",
+                "value": "-0.03",
                 "user_profile__company_id": 1007,
+                "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 61008,
-                "value": "0.32",
+                "value": "0.29",
                 "user_profile__company_id": 1008,
+                "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 61009,
-                "value": "0.42",
+                "value": "0.45",
                 "user_profile__company_id": 1009,
+                "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 61010,
-                "value": "0.20",
+                "value": "-0.04",
                 "user_profile__company_id": 1010,
+                "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 61011,
-                "value": "0.49",
+                "value": "0.19",
                 "user_profile__company_id": 1011,
+                "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
@@ -446,66 +512,77 @@
                 "id": 71001,
                 "value": "[{\"activityId\":151,\"countryCode\":\"ET\",\"weight\":1}]",
                 "user_profile__company_id": 1001,
+                "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 71002,
                 "value": "[{\"activityId\":26256,\"countryCode\":\"KE\",\"weight\":1}]",
                 "user_profile__company_id": 1002,
+                "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 71003,
                 "value": "[{\"activityId\":29489,\"countryCode\":\"UG\",\"weight\":1}]",
                 "user_profile__company_id": 1003,
+                "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 71004,
                 "value": "[{\"activityId\":26242,\"countryCode\":\"NG\",\"weight\":1}]",
                 "user_profile__company_id": 1004,
+                "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 71005,
                 "value": "[{\"activityId\":30192,\"countryCode\":\"GH\",\"weight\":1}]",
                 "user_profile__company_id": 1005,
+                "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 71006,
                 "value": "[{\"activityId\":44,\"countryCode\":\"RW\",\"weight\":1}]",
                 "user_profile__company_id": 1006,
+                "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 71007,
                 "value": "[{\"activityId\":26278,\"countryCode\":\"TZ\",\"weight\":1}]",
                 "user_profile__company_id": 1007,
+                "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 71008,
                 "value": "[{\"activityId\":29494,\"countryCode\":\"EG\",\"weight\":1}]",
                 "user_profile__company_id": 1008,
+                "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 71009,
                 "value": "[{\"activityId\":27994,\"countryCode\":\"MA\",\"weight\":1}]",
                 "user_profile__company_id": 1009,
+                "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 71010,
                 "value": "[{\"activityId\":26225,\"countryCode\":\"ZA\",\"weight\":1}]",
                 "user_profile__company_id": 1010,
+                "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 71011,
                 "value": "[{\"activityId\":26256,\"countryCode\":\"GB\",\"weight\":1}]",
                 "user_profile__company_id": 1011,
+                "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]

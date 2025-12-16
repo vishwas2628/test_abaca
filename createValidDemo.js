@@ -262,69 +262,87 @@ async function main() {
 
             // 1. Industry
             const industryVal = (company.sectors && company.sectors[0]) ? company.sectors[0].name : (config ? config.keyword : "General");
-            newQwR[0].responses.push({
+            newQwR[0].responses.push({ // ID 1
                 id: 10000 + company.id,
                 value: industryVal,
                 user_profile__company_id: company.id,
+                company_name: company.name,
                 created_at: createdAt
             });
 
             // 2. HQ Country Code
+            // company.locations[0].country_code should be set by now
             const countryCode = (company.locations && company.locations[0]) ? company.locations[0].country_code : "US";
-            newQwR[1].responses.push({
+
+            newQwR[1].responses.push({ // ID 2
                 id: 20000 + company.id,
                 value: countryCode,
                 user_profile__company_id: company.id,
+                company_name: company.name,
                 created_at: createdAt
             });
 
             // 3. Number of Employees
-            const employees = Math.floor(Math.random() * 400) + 10;
-            newQwR[2].responses.push({
+            // Random or fixed
+            const employees = Math.floor(Math.random() * 400) + 10; // 10 to 410
+
+            newQwR[2].responses.push({ // ID 3
                 id: 30000 + company.id,
                 value: employees.toString(),
                 user_profile__company_id: company.id,
+                company_name: company.name,
                 created_at: createdAt
             });
 
             // 4. Currency
             const currency = config ? config.currency : DEFAULT_CURRENCY;
-            newQwR[3].responses.push({
+
+            newQwR[3].responses.push({ // ID 4
                 id: 40000 + company.id,
                 value: currency,
                 user_profile__company_id: company.id,
+                company_name: company.name,
                 created_at: createdAt
             });
 
             // 5. Annual Revenue
-            const revenue = Math.floor(Math.random() * 1000000) + 50000;
-            newQwR[4].responses.push({
+            const revenue = Math.floor(Math.random() * 1000000) + 50000; // 50k to 1.05M
+
+            newQwR[4].responses.push({ // ID 5
                 id: 50000 + company.id,
                 value: revenue.toString(),
                 user_profile__company_id: company.id,
+                company_name: company.name,
                 created_at: createdAt
             });
 
             // 6. Revenue Growth
+            // -0.1 to 0.5
             const growth = (Math.random() * 0.6 - 0.1).toFixed(2);
-            newQwR[5].responses.push({
+
+            newQwR[5].responses.push({ // ID 6
                 id: 60000 + company.id,
                 value: growth,
                 user_profile__company_id: company.id,
+                company_name: company.name,
                 created_at: createdAt
             });
 
             // 7. Activity Breakdown
+            // Ensure valid structure: [{ activityId, countryCode, weight: 1 }]
+            // Use company.sectors[0].id which we ensured relates to real Activity ID
             const activityId = (company.sectors && company.sectors[0]) ? company.sectors[0].id : 0;
             const breakdown = [{
                 activityId: activityId,
                 countryCode: countryCode,
                 weight: 1
             }];
-            newQwR[6].responses.push({
+
+            newQwR[6].responses.push({ // ID 7
                 id: 70000 + company.id,
-                value: JSON.stringify(breakdown),
+                value: JSON.stringify(breakdown), // JSON stringified as requested
                 user_profile__company_id: company.id,
+                company_name: company.name,
                 created_at: createdAt
             });
         }
