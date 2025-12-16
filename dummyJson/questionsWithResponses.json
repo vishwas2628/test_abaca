@@ -1,0 +1,383 @@
+[
+    {
+        "id": 2001,
+        "entrepreneur_question": "How many full-time employees do you have?",
+        "resource_question": "Employee count criteria?",
+        "short_name": "num_employees",
+        "question_type": {
+            "name": "Integer",
+            "type": "integer"
+        },
+        "answers": [],
+        "responses": [
+            {
+                "id": 5001,
+                "value": "45",
+                "user_profile__company_id": 1001,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5002,
+                "value": "120",
+                "user_profile__company_id": 1002,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5003,
+                "value": "15",
+                "user_profile__company_id": 1003,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5004,
+                "value": "60",
+                "user_profile__company_id": 1004,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5005,
+                "value": "200",
+                "user_profile__company_id": 1005,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5006,
+                "value": "30",
+                "user_profile__company_id": 1006,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5007,
+                "value": "85",
+                "user_profile__company_id": 1007,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5008,
+                "value": "10",
+                "user_profile__company_id": 1008,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5009,
+                "value": "300",
+                "user_profile__company_id": 1009,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5010,
+                "value": "50",
+                "user_profile__company_id": 1010,
+                "created_at": "2023-11-01T10:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 2002,
+        "entrepreneur_question": "What is your reporting currency?",
+        "resource_question": "Currency preference?",
+        "short_name": "currency",
+        "question_type": {
+            "name": "Single Choice",
+            "type": "single_choice"
+        },
+        "answers": [
+            {
+                "id": 3001,
+                "value": "USD",
+                "order": 1
+            },
+            {
+                "id": 3002,
+                "value": "EUR",
+                "order": 2
+            },
+            {
+                "id": 3003,
+                "value": "KES",
+                "order": 3
+            }
+        ],
+        "responses": [
+            {
+                "id": 5101,
+                "value": "USD",
+                "user_profile__company_id": 1001,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5102,
+                "value": "KES",
+                "user_profile__company_id": 1002,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5103,
+                "value": "USD",
+                "user_profile__company_id": 1003,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5104,
+                "value": "NGN",
+                "user_profile__company_id": 1004,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5105,
+                "value": "GHS",
+                "user_profile__company_id": 1005,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5106,
+                "value": "RWF",
+                "user_profile__company_id": 1006,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5107,
+                "value": "TZS",
+                "user_profile__company_id": 1007,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5108,
+                "value": "EGP",
+                "user_profile__company_id": 1008,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5109,
+                "value": "MAD",
+                "user_profile__company_id": 1009,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5110,
+                "value": "ZAR",
+                "user_profile__company_id": 1010,
+                "created_at": "2023-11-01T10:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 2003,
+        "entrepreneur_question": "What was your revenue in the last fiscal year?",
+        "resource_question": "Revenue criteria?",
+        "short_name": "revenue",
+        "question_type": {
+            "name": "Float",
+            "type": "float"
+        },
+        "answers": [],
+        "responses": [
+            {
+                "id": 5201,
+                "value": "500000",
+                "user_profile__company_id": 1001,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5202,
+                "value": "1200000",
+                "user_profile__company_id": 1002,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5203,
+                "value": "75000",
+                "user_profile__company_id": 1003,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5204,
+                "value": "300000",
+                "user_profile__company_id": 1004,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5205,
+                "value": "2000000",
+                "user_profile__company_id": 1005,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5206,
+                "value": "150000",
+                "user_profile__company_id": 1006,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5207,
+                "value": "450000",
+                "user_profile__company_id": 1007,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5208,
+                "value": "50000",
+                "user_profile__company_id": 1008,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5209,
+                "value": "3500000",
+                "user_profile__company_id": 1009,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5210,
+                "value": "250000",
+                "user_profile__company_id": 1010,
+                "created_at": "2023-11-01T10:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 2004,
+        "entrepreneur_question": "What is your year-over-year revenue growth (%)?",
+        "resource_question": "Growth criteria?",
+        "short_name": "revenue_growth",
+        "question_type": {
+            "name": "Float",
+            "type": "float"
+        },
+        "answers": [],
+        "responses": [
+            {
+                "id": 5301,
+                "value": "25",
+                "user_profile__company_id": 1001,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5302,
+                "value": "40",
+                "user_profile__company_id": 1002,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5303,
+                "value": "150",
+                "user_profile__company_id": 1003,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5304,
+                "value": "20",
+                "user_profile__company_id": 1004,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5305,
+                "value": "35",
+                "user_profile__company_id": 1005,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5306,
+                "value": "80",
+                "user_profile__company_id": 1006,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5307,
+                "value": "15",
+                "user_profile__company_id": 1007,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5308,
+                "value": "60",
+                "user_profile__company_id": 1008,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5309,
+                "value": "10",
+                "user_profile__company_id": 1009,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5310,
+                "value": "22",
+                "user_profile__company_id": 1010,
+                "created_at": "2023-11-01T10:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 2005,
+        "entrepreneur_question": "Primary Activity Breakdown",
+        "resource_question": "Activity Breakdown?",
+        "short_name": "activity_breakdown",
+        "question_type": {
+            "name": "Text",
+            "type": "text"
+        },
+        "answers": [],
+        "responses": [
+            {
+                "id": 5401,
+                "value": "[{\"activityId\": 101, \"countryCode\": \"ET\", \"weight\": 1.0}]",
+                "user_profile__company_id": 1001,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5402,
+                "value": "[{\"activityId\": 102, \"countryCode\": \"KE\", \"weight\": 0.8}, {\"activityId\": 110, \"countryCode\": \"KE\", \"weight\": 0.2}]",
+                "user_profile__company_id": 1002,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5403,
+                "value": "[{\"activityId\": 103, \"countryCode\": \"UG\", \"weight\": 1.0}]",
+                "user_profile__company_id": 1003,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5404,
+                "value": "[{\"activityId\": 104, \"countryCode\": \"NG\", \"weight\": 0.9}, {\"activityId\": 115, \"countryCode\": \"NG\", \"weight\": 0.1}]",
+                "user_profile__company_id": 1004,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5405,
+                "value": "[{\"activityId\": 105, \"countryCode\": \"GH\", \"weight\": 1.0}]",
+                "user_profile__company_id": 1005,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5406,
+                "value": "[{\"activityId\": 106, \"countryCode\": \"RW\", \"weight\": 1.0}]",
+                "user_profile__company_id": 1006,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5407,
+                "value": "[{\"activityId\": 101, \"countryCode\": \"TZ\", \"weight\": 0.6}, {\"activityId\": 107, \"countryCode\": \"TZ\", \"weight\": 0.4}]",
+                "user_profile__company_id": 1007,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5408,
+                "value": "[{\"activityId\": 108, \"countryCode\": \"EG\", \"weight\": 1.0}]",
+                "user_profile__company_id": 1008,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5409,
+                "value": "[{\"activityId\": 109, \"countryCode\": \"MA\", \"weight\": 1.0}]",
+                "user_profile__company_id": 1009,
+                "created_at": "2023-11-01T10:00:00Z"
+            },
+            {
+                "id": 5410,
+                "value": "[{\"activityId\": 110, \"countryCode\": \"ZA\", \"weight\": 1.0}]",
+                "user_profile__company_id": 1010,
+                "created_at": "2023-11-01T10:00:00Z"
+            }
+        ]
+    }
+]

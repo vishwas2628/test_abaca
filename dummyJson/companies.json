@@ -1,0 +1,336 @@
+[
+    {
+        "id": 1001,
+        "type": 0,
+        "name": "EcoFarms Ethiopia",
+        "slug": "ecofarms-ethiopia",
+        "logo": "https://via.placeholder.com/150/007bff/ffffff?text=EcoFarms",
+        "cover": "https://via.placeholder.com/600x200/007bff/ffffff?text=EcoFarms+Cover",
+        "about": "EcoFarms Ethiopia is dedicated to sustainable agricultural practices in the heart of Oromia. We empower local farmers by providing them with advanced, eco-friendly farming techniques and connecting them directly to international markets, ensuring fair trade and economic growth for the community.",
+        "website": "https://ecofarms.et",
+        "email": "contact@ecofarms.et",
+        "founded_date": "2019-05-15",
+        "locations": [
+            {
+                "id": 5001,
+                "formatted_address": "Bole Sub City, Addis Ababa, Ethiopia",
+                "city": "Addis Ababa",
+                "country": "Ethiopia",
+                "latitude": 9.005401,
+                "longitude": 38.763611
+            }
+        ],
+        "sectors": [
+            {
+                "id": 101,
+                "name": "Agriculture"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "organization/ecofarms-ethiopia",
+        "access_hash": "hash1001",
+        "created_at": "2023-01-10T09:00:00Z",
+        "updated_at": "2023-06-15T10:30:00Z"
+    },
+    {
+        "id": 1002,
+        "type": 0,
+        "name": "TechSavvy Solutions",
+        "slug": "techsavvy-solutions",
+        "logo": "https://via.placeholder.com/150/28a745/ffffff?text=TechSavvy",
+        "cover": "https://via.placeholder.com/600x200/28a745/ffffff?text=TechSavvy+Cover",
+        "about": "Leading the digital transformation in East Africa, TechSavvy Solutions provides cutting-edge software development and IT consulting services. Our mission is to digitize local businesses and streamline their operations through custom ERP and CRM solutions.",
+        "website": "https://techsavvy.co.ke",
+        "email": "info@techsavvy.co.ke",
+        "founded_date": "2020-02-20",
+        "locations": [
+            {
+                "id": 5002,
+                "formatted_address": "Westlands, Nairobi, Kenya",
+                "city": "Nairobi",
+                "country": "Kenya",
+                "latitude": -1.2633,
+                "longitude": 36.8024
+            }
+        ],
+        "sectors": [
+            {
+                "id": 102,
+                "name": "Information Technology"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "organization/techsavvy-solutions",
+        "access_hash": "hash1002",
+        "created_at": "2023-02-12T11:00:00Z",
+        "updated_at": "2023-07-20T14:45:00Z"
+    },
+    {
+        "id": 1003,
+        "type": 1,
+        "name": "SolarPower Africa",
+        "slug": "solarpower-africa",
+        "logo": "https://via.placeholder.com/150/ffc107/ffffff?text=SolarPower",
+        "cover": "https://via.placeholder.com/600x200/ffc107/ffffff?text=SolarPower+Cover",
+        "about": "Harnessing the power of the sun to light up rural Africa. We specialize in affordable, off-grid solar home systems that bring electricity to remote villages, improving education, health, and economic opportunities for thousands of households.",
+        "website": "https://solarpower.africa",
+        "email": "hello@solarpower.africa",
+        "founded_date": "2018-11-10",
+        "locations": [
+            {
+                "id": 5003,
+                "formatted_address": "Kampala, Uganda",
+                "city": "Kampala",
+                "country": "Uganda",
+                "latitude": 0.3476,
+                "longitude": 32.5825
+            }
+        ],
+        "sectors": [
+            {
+                "id": 103,
+                "name": "Energy"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "organization/solarpower-africa",
+        "access_hash": "hash1003",
+        "created_at": "2023-03-05T08:15:00Z",
+        "updated_at": "2023-08-01T16:20:00Z"
+    },
+    {
+        "id": 1004,
+        "type": 0,
+        "name": "HealthFirst Clinics",
+        "slug": "healthfirst-clinics",
+        "logo": "https://via.placeholder.com/150/dc3545/ffffff?text=HealthFirst",
+        "cover": "https://via.placeholder.com/600x200/dc3545/ffffff?text=HealthFirst+Cover",
+        "about": "A network of modern, accessible primary care clinics designed to serve low-to-middle income families. We combine technology with compassionate care to reduce wait times and improve diagnosis accuracy across the region.",
+        "website": "https://healthfirst.org",
+        "email": "care@healthfirst.org",
+        "founded_date": "2021-06-01",
+        "locations": [
+            {
+                "id": 5004,
+                "formatted_address": "Lagos, Nigeria",
+                "city": "Lagos",
+                "country": "Nigeria",
+                "latitude": 6.5244,
+                "longitude": 3.3792
+            }
+        ],
+        "sectors": [
+            {
+                "id": 104,
+                "name": "Healthcare"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "organization/healthfirst-clinics",
+        "access_hash": "hash1004",
+        "created_at": "2023-04-10T10:00:00Z",
+        "updated_at": "2023-09-10T11:11:00Z"
+    },
+    {
+        "id": 1005,
+        "type": 0,
+        "name": "EduTech Innovations",
+        "slug": "edutech-innovations",
+        "logo": "https://via.placeholder.com/150/17a2b8/ffffff?text=EduTech",
+        "cover": "https://via.placeholder.com/600x200/17a2b8/ffffff?text=EduTech+Cover",
+        "about": "Revolutionizing the way students learn through gamified mobile apps and low-bandwidth e-learning platforms. Our goal is to make quality education accessible to every child, regardless of their internet connectivity.",
+        "website": "https://edutech.io",
+        "email": "support@edutech.io",
+        "founded_date": "2020-09-15",
+        "locations": [
+            {
+                "id": 5005,
+                "formatted_address": "Accra, Ghana",
+                "city": "Accra",
+                "country": "Ghana",
+                "latitude": 5.6037,
+                "longitude": -0.1870
+            }
+        ],
+        "sectors": [
+            {
+                "id": 105,
+                "name": "Education"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "organization/edutech-innovations",
+        "access_hash": "hash1005",
+        "created_at": "2023-05-01T09:30:00Z",
+        "updated_at": "2023-10-05T12:00:00Z"
+    },
+    {
+        "id": 1006,
+        "type": 2,
+        "name": "FinTrust Bank",
+        "slug": "fintrust-bank",
+        "logo": "https://via.placeholder.com/150/6610f2/ffffff?text=FinTrust",
+        "cover": "https://via.placeholder.com/600x200/6610f2/ffffff?text=FinTrust+Cover",
+        "about": "FinTrust Bank is a digital-first challenger bank focusing on financial inclusion for the unbanked. We offer fee-free accounts, micro-loans, and financial literacy training to help small business owners grow their wealth.",
+        "website": "https://fintrust.bank",
+        "email": "contact@fintrust.bank",
+        "founded_date": "2022-01-10",
+        "locations": [
+            {
+                "id": 5006,
+                "formatted_address": "Kigali, Rwanda",
+                "city": "Kigali",
+                "country": "Rwanda",
+                "latitude": -1.9441,
+                "longitude": 30.0619
+            }
+        ],
+        "sectors": [
+            {
+                "id": 106,
+                "name": "Fintech"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "organization/fintrust-bank",
+        "access_hash": "hash1006",
+        "created_at": "2023-06-20T14:20:00Z",
+        "updated_at": "2023-11-15T09:45:00Z"
+    },
+    {
+        "id": 1007,
+        "type": 0,
+        "name": "AgriCool Logistics",
+        "slug": "agricool-logistics",
+        "logo": "https://via.placeholder.com/150/fd7e14/ffffff?text=AgriCool",
+        "cover": "https://via.placeholder.com/600x200/fd7e14/ffffff?text=AgriCool+Cover",
+        "about": "Solving the post-harvest loss challenge with an integrated cold chain logistics network. We provide refrigerated transport and storage solutions for farmers to ensure their produce reaches the market fresh.",
+        "website": "https://agricool.co",
+        "email": "ops@agricool.co",
+        "founded_date": "2019-08-08",
+        "locations": [
+            {
+                "id": 5007,
+                "formatted_address": "Dar es Salaam, Tanzania",
+                "city": "Dar es Salaam",
+                "country": "Tanzania",
+                "latitude": -6.7924,
+                "longitude": 39.2083
+            }
+        ],
+        "sectors": [
+            {
+                "id": 101,
+                "name": "Agriculture"
+            },
+            {
+                "id": 107,
+                "name": "Logistics"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "organization/agricool-logistics",
+        "access_hash": "hash1007",
+        "created_at": "2023-07-15T10:10:00Z",
+        "updated_at": "2023-12-01T13:30:00Z"
+    },
+    {
+        "id": 1008,
+        "type": 0,
+        "name": "CleanWater Systems",
+        "slug": "cleanwater-systems",
+        "logo": "https://via.placeholder.com/150/20c997/ffffff?text=CleanWater",
+        "cover": "https://via.placeholder.com/600x200/20c997/ffffff?text=CleanWater+Cover",
+        "about": "Developing innovative low-cost water filtration systems for rural communities. Our solar-powered desalination units are changing lives by providing safe, drinkable water in arid regions.",
+        "website": "https://cleanwater.sys",
+        "email": "info@cleanwater.sys",
+        "founded_date": "2021-03-22",
+        "locations": [
+            {
+                "id": 5008,
+                "formatted_address": "Cairo, Egypt",
+                "city": "Cairo",
+                "country": "Egypt",
+                "latitude": 30.0444,
+                "longitude": 31.2357
+            }
+        ],
+        "sectors": [
+            {
+                "id": 108,
+                "name": "Water & Sanitation"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "organization/cleanwater-systems",
+        "access_hash": "hash1008",
+        "created_at": "2023-08-01T15:00:00Z",
+        "updated_at": "2023-12-20T09:15:00Z"
+    },
+    {
+        "id": 1009,
+        "type": 0,
+        "name": "MarketConnect",
+        "slug": "marketconnect",
+        "logo": "https://via.placeholder.com/150/e83e8c/ffffff?text=MarketConnect",
+        "cover": "https://via.placeholder.com/600x200/e83e8c/ffffff?text=MarketConnect+Cover",
+        "about": "A B2B e-commerce marketplace connecting informal retailers with manufacturers and suppliers. We simplify the supply chain, lower costs for small shops, and provide data-driven insights to suppliers.",
+        "website": "https://marketconnect.com",
+        "email": "sales@marketconnect.com",
+        "founded_date": "2019-12-01",
+        "locations": [
+            {
+                "id": 5009,
+                "formatted_address": "Casablanca, Morocco",
+                "city": "Casablanca",
+                "country": "Morocco",
+                "latitude": 33.5731,
+                "longitude": -7.5898
+            }
+        ],
+        "sectors": [
+            {
+                "id": 109,
+                "name": "E-commerce"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "organization/marketconnect",
+        "access_hash": "hash1009",
+        "created_at": "2023-09-10T11:45:00Z",
+        "updated_at": "2024-01-05T14:20:00Z"
+    },
+    {
+        "id": 1010,
+        "type": 0,
+        "name": "BuildIt Construction",
+        "slug": "buildit-construction",
+        "logo": "https://via.placeholder.com/150/6c757d/ffffff?text=BuildIt",
+        "cover": "https://via.placeholder.com/600x200/6c757d/ffffff?text=BuildIt+Cover",
+        "about": "Sustainable construction using recycled materials. We manufacture eco-bricks from plastic waste and build affordable housing, schools, and community centers, reducing pollution while providing shelter.",
+        "website": "https://buildit.xyz",
+        "email": "projects@buildit.xyz",
+        "founded_date": "2020-07-30",
+        "locations": [
+            {
+                "id": 5010,
+                "formatted_address": "Cape Town, South Africa",
+                "city": "Cape Town",
+                "country": "South Africa",
+                "latitude": -33.9249,
+                "longitude": 18.4241
+            }
+        ],
+        "sectors": [
+            {
+                "id": 110,
+                "name": "Construction"
+            }
+        ],
+        "networks": [],
+        "crunchbase_id": "organization/buildit-construction",
+        "access_hash": "hash1010",
+        "created_at": "2023-10-05T08:50:00Z",
+        "updated_at": "2024-01-15T16:00:00Z"
+    }
+]

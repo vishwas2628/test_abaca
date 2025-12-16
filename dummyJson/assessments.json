@@ -1,0 +1,242 @@
+[
+    {
+        "id": 50001,
+        "level": {
+            "id": 28,
+            "value": 1,
+            "title": "Establishing the Founding Team",
+            "description": "You're off to a great start. The founding team has been established, and whether or not you have a product prototype or a business model, you've identified an important problem to solve. You have brought together a group of individuals who share a common vision and have complementary skills necessary to execute the initial phase of your startup. The focus at this stage is to solidify the team dynamics, agree on roles and responsibilities, and ensure everyone is committed to the long-term vision. It involves frequent brainstorming sessions, setting the initial culture, and perhaps even drafting a founders' agreement to prevent future conflicts.\r\n\r\nTypical funding options for Level 1 companies include loans or investments from friends & family, personal savings, and personal credit.",
+            "typical_funding": "Friends & Family\r\nPersonal Credit",
+            "group": 2
+        },
+        "created_at": "2023-11-01T10:00:00Z",
+        "updated_at": "2023-11-01T10:00:00Z",
+        "data": [
+            {
+                "level": 1,
+                "category": 25
+            }
+        ],
+        "user": 3001,
+        "evaluated": 1001,
+        "hash_token": "token1001",
+        "state": 2,
+        "from_milestone_planner": false
+    },
+    {
+        "id": 50002,
+        "level": {
+            "id": 29,
+            "value": 2,
+            "title": "Validating the Problem-Solution Fit",
+            "description": "You have moved beyond the initial idea and team formation. Now, you are deeply engaged in validating that the problem you identified is indeed a painful one for a specific group of people, and that your proposed solution effectively addresses it. This involves conducting customer interviews, running surveys, and perhaps creating a low-fidelity MVP (Minimum Viable Product) to test your assumptions. You are learning rapidly from user feedback and iterating on your value proposition. The goal is to find evidence of traction and interest before building the full product.\r\n\r\nTypical funding options for Level 2 companies include grants, angel investors, and early-stage accelerators.",
+            "typical_funding": "Grants\r\nAngel Investors",
+            "group": 2
+        },
+        "created_at": "2023-11-02T11:00:00Z",
+        "updated_at": "2023-11-02T11:00:00Z",
+        "data": [
+            {
+                "level": 2,
+                "category": 25
+            }
+        ],
+        "user": 3002,
+        "evaluated": 1002,
+        "hash_token": "token1002",
+        "state": 2,
+        "from_milestone_planner": false
+    },
+    {
+        "id": 50003,
+        "level": {
+            "id": 30,
+            "value": 3,
+            "title": "Validating Product-Market Fit",
+            "description": "At this stage, you have a functional product in the market and you are seeing genuine usage. The focus is now on ensuring that the market is pulling the product from you, rather than you having to push it too hard. You are measuring retention, engagement, and checking if users are disappointed if they can no longer use your product. You are refining your business model and starting to see some revenue. It's a critical phase where you prove that leading inputs (marketing, sales efforts) result in predictable outputs (customer acquisition, revenue).\r\n\r\nTypical funding options for Level 3 companies include Seed funding, venture capital, and strategic partnerships.",
+            "typical_funding": "Seed Funding\r\nVenture Capital",
+            "group": 2
+        },
+        "created_at": "2023-11-03T12:00:00Z",
+        "updated_at": "2023-11-03T12:00:00Z",
+        "data": [
+            {
+                "level": 3,
+                "category": 25
+            }
+        ],
+        "user": 3003,
+        "evaluated": 1003,
+        "hash_token": "token1003",
+        "state": 2,
+        "from_milestone_planner": false
+    },
+    {
+        "id": 50004,
+        "level": {
+            "id": 31,
+            "value": 4,
+            "title": "Scaling the Business",
+            "description": "You have achieved Product-Market Fit and are now focused on growth. This involves scaling your operations, expanding your team, and entering new markets. You are investing heavily in marketing and sales to acquire customers at a faster rate. Your internal processes are being standardized to handle the increased load. The challenge here is to manage the chaos of rapid growth while maintaining culture and quality. You are looking at significant operational metrics and unit economics to ensure that growth is sustainable and profitable in the long run.\r\n\r\nTypical funding options for Level 4 companies include Series A, Series B, and growth equity.",
+            "typical_funding": "Series A\r\nGrowth Equity",
+            "group": 2
+        },
+        "created_at": "2023-11-04T13:00:00Z",
+        "updated_at": "2023-11-04T13:00:00Z",
+        "data": [
+            {
+                "level": 4,
+                "category": 25
+            }
+        ],
+        "user": 3004,
+        "evaluated": 1004,
+        "hash_token": "token1004",
+        "state": 2,
+        "from_milestone_planner": false
+    },
+    {
+        "id": 50005,
+        "level": {
+            "id": 32,
+            "value": 5,
+            "title": "Established Organization",
+            "description": "Your company is now a mature organization. You have a large workforce, multiple departments, and perhaps international operations. You are a market leader or a significant player in your industry. The focus shifts towards optimizing efficiency, exploring new product lines, and perhaps acquiring smaller companies. You have a Board of Directors and formal governance structures in place. Innovation continues, but it is balanced with the need for stability and consistent returns for shareholders. You are thinking about long-term strategy and legacy.\r\n\r\nTypical funding options for Level 5 companies include IPO, private equity, and debt financing.",
+            "typical_funding": "IPO\r\nPrivate Equity",
+            "group": 2
+        },
+        "created_at": "2023-11-05T14:00:00Z",
+        "updated_at": "2023-11-05T14:00:00Z",
+        "data": [
+            {
+                "level": 5,
+                "category": 25
+            }
+        ],
+        "user": 3005,
+        "evaluated": 1005,
+        "hash_token": "token1005",
+        "state": 2,
+        "from_milestone_planner": false
+    },
+    {
+        "id": 50006,
+        "level": {
+            "id": 28,
+            "value": 1,
+            "title": "Establishing the Founding Team",
+            "description": "You're off to a great start. The founding team has been established, and whether or not you have a product prototype or a business model, you've identified an important problem to solve. You have brought together a group of individuals who share a common vision and have complementary skills necessary to execute the initial phase of your startup. The focus at this stage is to solidify the team dynamics, agree on roles and responsibilities, and ensure everyone is committed to the long-term vision. It involves frequent brainstorming sessions, setting the initial culture, and perhaps even drafting a founders' agreement to prevent future conflicts.\r\n\r\nTypical funding options for Level 1 companies include loans or investments from friends & family, personal savings, and personal credit.",
+            "typical_funding": "Friends & Family\r\nPersonal Credit",
+            "group": 2
+        },
+        "created_at": "2023-11-06T15:00:00Z",
+        "updated_at": "2023-11-06T15:00:00Z",
+        "data": [
+            {
+                "level": 1,
+                "category": 25
+            }
+        ],
+        "user": 3006,
+        "evaluated": 1006,
+        "hash_token": "token1006",
+        "state": 2,
+        "from_milestone_planner": false
+    },
+    {
+        "id": 50007,
+        "level": {
+            "id": 29,
+            "value": 2,
+            "title": "Validating the Problem-Solution Fit",
+            "description": "You have moved beyond the initial idea and team formation. Now, you are deeply engaged in validating that the problem you identified is indeed a painful one for a specific group of people, and that your proposed solution effectively addresses it. This involves conducting customer interviews, running surveys, and perhaps creating a low-fidelity MVP (Minimum Viable Product) to test your assumptions. You are learning rapidly from user feedback and iterating on your value proposition. The goal is to find evidence of traction and interest before building the full product.\r\n\r\nTypical funding options for Level 2 companies include grants, angel investors, and early-stage accelerators.",
+            "typical_funding": "Grants\r\nAngel Investors",
+            "group": 2
+        },
+        "created_at": "2023-11-07T16:00:00Z",
+        "updated_at": "2023-11-07T16:00:00Z",
+        "data": [
+            {
+                "level": 2,
+                "category": 25
+            }
+        ],
+        "user": 3007,
+        "evaluated": 1007,
+        "hash_token": "token1007",
+        "state": 2,
+        "from_milestone_planner": false
+    },
+    {
+        "id": 50008,
+        "level": {
+            "id": 30,
+            "value": 3,
+            "title": "Validating Product-Market Fit",
+            "description": "At this stage, you have a functional product in the market and you are seeing genuine usage. The focus is now on ensuring that the market is pulling the product from you, rather than you having to push it too hard. You are measuring retention, engagement, and checking if users are disappointed if they can no longer use your product. You are refining your business model and starting to see some revenue. It's a critical phase where you prove that leading inputs (marketing, sales efforts) result in predictable outputs (customer acquisition, revenue).\r\n\r\nTypical funding options for Level 3 companies include Seed funding, venture capital, and strategic partnerships.",
+            "typical_funding": "Seed Funding\r\nVenture Capital",
+            "group": 2
+        },
+        "created_at": "2023-11-08T17:00:00Z",
+        "updated_at": "2023-11-08T17:00:00Z",
+        "data": [
+            {
+                "level": 3,
+                "category": 25
+            }
+        ],
+        "user": 3008,
+        "evaluated": 1008,
+        "hash_token": "token1008",
+        "state": 2,
+        "from_milestone_planner": false
+    },
+    {
+        "id": 50009,
+        "level": {
+            "id": 31,
+            "value": 4,
+            "title": "Scaling the Business",
+            "description": "You have achieved Product-Market Fit and are now focused on growth. This involves scaling your operations, expanding your team, and entering new markets. You are investing heavily in marketing and sales to acquire customers at a faster rate. Your internal processes are being standardized to handle the increased load. The challenge here is to manage the chaos of rapid growth while maintaining culture and quality. You are looking at significant operational metrics and unit economics to ensure that growth is sustainable and profitable in the long run.\r\n\r\nTypical funding options for Level 4 companies include Series A, Series B, and growth equity.",
+            "typical_funding": "Series A\r\nGrowth Equity",
+            "group": 2
+        },
+        "created_at": "2023-11-09T18:00:00Z",
+        "updated_at": "2023-11-09T18:00:00Z",
+        "data": [
+            {
+                "level": 4,
+                "category": 25
+            }
+        ],
+        "user": 3009,
+        "evaluated": 1009,
+        "hash_token": "token1009",
+        "state": 2,
+        "from_milestone_planner": false
+    },
+    {
+        "id": 50010,
+        "level": {
+            "id": 28,
+            "value": 1,
+            "title": "Establishing the Founding Team",
+            "description": "You're off to a great start. The founding team has been established, and whether or not you have a product prototype or a business model, you've identified an important problem to solve. You have brought together a group of individuals who share a common vision and have complementary skills necessary to execute the initial phase of your startup. The focus at this stage is to solidify the team dynamics, agree on roles and responsibilities, and ensure everyone is committed to the long-term vision. It involves frequent brainstorming sessions, setting the initial culture, and perhaps even drafting a founders' agreement to prevent future conflicts.\r\n\r\nTypical funding options for Level 1 companies include loans or investments from friends & family, personal savings, and personal credit.",
+            "typical_funding": "Friends & Family\r\nPersonal Credit",
+            "group": 2
+        },
+        "created_at": "2023-11-10T19:00:00Z",
+        "updated_at": "2023-11-10T19:00:00Z",
+        "data": [
+            {
+                "level": 1,
+                "category": 25
+            }
+        ],
+        "user": 3010,
+        "evaluated": 1010,
+        "hash_token": "token1010",
+        "state": 2,
+        "from_milestone_planner": false
+    }
+]
