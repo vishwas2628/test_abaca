@@ -1,412 +1,512 @@
 [
     {
-        "id": 2001,
-        "entrepreneur_question": "How many full-time employees do you have?",
-        "resource_question": "Employee count criteria?",
-        "short_name": "num_employees",
-        "question_type": {
-            "name": "Integer",
-            "type": "integer"
-        },
+        "id": 1,
+        "text": "Industry",
         "answers": [],
         "responses": [
             {
-                "id": 5001,
-                "value": "45",
+                "id": 11001,
+                "value": "Adhesives",
                 "user_profile__company_id": 1001,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-01-10T09:00:00Z"
             },
             {
-                "id": 5002,
-                "value": "120",
+                "id": 11002,
+                "value": "3D Printing & Additive Manufacturing for health devices",
                 "user_profile__company_id": 1002,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-02-12T11:00:00Z"
             },
             {
-                "id": 5003,
-                "value": "15",
+                "id": 11003,
+                "value": "All other converted paper products",
                 "user_profile__company_id": 1003,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-03-05T08:15:00Z"
             },
             {
-                "id": 5004,
-                "value": "60",
+                "id": 11004,
+                "value": "3D Printing & Additive Manufacturing for health devices",
                 "user_profile__company_id": 1004,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-04-10T10:00:00Z"
             },
             {
-                "id": 5005,
-                "value": "200",
+                "id": 11005,
+                "value": "Accelerated & remedial learning programmes for Out-of-School Learners",
                 "user_profile__company_id": 1005,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-05-01T09:30:00Z"
             },
             {
-                "id": 5006,
-                "value": "30",
+                "id": 11006,
+                "value": "Accounting & Tax Preparation",
                 "user_profile__company_id": 1006,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-06-20T14:20:00Z"
             },
             {
-                "id": 5007,
-                "value": "85",
+                "id": 11007,
+                "value": "3D Printing & Additive Manufacturing for maritime industry",
                 "user_profile__company_id": 1007,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-07-15T10:10:00Z"
             },
             {
-                "id": 5008,
-                "value": "10",
+                "id": 11008,
+                "value": "All other converted paper products",
                 "user_profile__company_id": 1008,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-08-01T15:00:00Z"
             },
             {
-                "id": 5009,
-                "value": "300",
+                "id": 11009,
+                "value": "AI-enabled",
                 "user_profile__company_id": 1009,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-09-10T11:45:00Z"
             },
             {
-                "id": 5010,
-                "value": "50",
+                "id": 11010,
+                "value": "3D Printing & Additive Manufacturing for construction",
                 "user_profile__company_id": 1010,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-10-05T08:50:00Z"
             },
             {
-                "id": 5011,
-                "value": "10",
+                "id": 11011,
+                "value": "3D Printing & Additive Manufacturing for health devices",
                 "user_profile__company_id": 1011,
-                "created_at": "2025-12-16T13:21:00.438Z"
+                "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
     },
     {
-        "id": 2002,
-        "entrepreneur_question": "What is your reporting currency?",
-        "resource_question": "Currency preference?",
-        "short_name": "currency",
-        "question_type": {
-            "name": "Single Choice",
-            "type": "single_choice"
-        },
-        "answers": [
-            {
-                "id": 3001,
-                "value": "USD",
-                "order": 1
-            },
-            {
-                "id": 3002,
-                "value": "EUR",
-                "order": 2
-            },
-            {
-                "id": 3003,
-                "value": "KES",
-                "order": 3
-            }
-        ],
+        "id": 2,
+        "text": "HQ Country Code",
+        "answers": [],
         "responses": [
             {
-                "id": 5101,
+                "id": 21001,
+                "value": "ET",
+                "user_profile__company_id": 1001,
+                "created_at": "2023-01-10T09:00:00Z"
+            },
+            {
+                "id": 21002,
+                "value": "KE",
+                "user_profile__company_id": 1002,
+                "created_at": "2023-02-12T11:00:00Z"
+            },
+            {
+                "id": 21003,
+                "value": "UG",
+                "user_profile__company_id": 1003,
+                "created_at": "2023-03-05T08:15:00Z"
+            },
+            {
+                "id": 21004,
+                "value": "NG",
+                "user_profile__company_id": 1004,
+                "created_at": "2023-04-10T10:00:00Z"
+            },
+            {
+                "id": 21005,
+                "value": "GH",
+                "user_profile__company_id": 1005,
+                "created_at": "2023-05-01T09:30:00Z"
+            },
+            {
+                "id": 21006,
+                "value": "RW",
+                "user_profile__company_id": 1006,
+                "created_at": "2023-06-20T14:20:00Z"
+            },
+            {
+                "id": 21007,
+                "value": "TZ",
+                "user_profile__company_id": 1007,
+                "created_at": "2023-07-15T10:10:00Z"
+            },
+            {
+                "id": 21008,
+                "value": "EG",
+                "user_profile__company_id": 1008,
+                "created_at": "2023-08-01T15:00:00Z"
+            },
+            {
+                "id": 21009,
+                "value": "MA",
+                "user_profile__company_id": 1009,
+                "created_at": "2023-09-10T11:45:00Z"
+            },
+            {
+                "id": 21010,
+                "value": "ZA",
+                "user_profile__company_id": 1010,
+                "created_at": "2023-10-05T08:50:00Z"
+            },
+            {
+                "id": 21011,
+                "value": "GB",
+                "user_profile__company_id": 1011,
+                "created_at": "2025-12-16T13:21:00.343Z"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Number of Employees",
+        "answers": [],
+        "responses": [
+            {
+                "id": 31001,
+                "value": "337",
+                "user_profile__company_id": 1001,
+                "created_at": "2023-01-10T09:00:00Z"
+            },
+            {
+                "id": 31002,
+                "value": "167",
+                "user_profile__company_id": 1002,
+                "created_at": "2023-02-12T11:00:00Z"
+            },
+            {
+                "id": 31003,
+                "value": "167",
+                "user_profile__company_id": 1003,
+                "created_at": "2023-03-05T08:15:00Z"
+            },
+            {
+                "id": 31004,
+                "value": "133",
+                "user_profile__company_id": 1004,
+                "created_at": "2023-04-10T10:00:00Z"
+            },
+            {
+                "id": 31005,
+                "value": "211",
+                "user_profile__company_id": 1005,
+                "created_at": "2023-05-01T09:30:00Z"
+            },
+            {
+                "id": 31006,
+                "value": "301",
+                "user_profile__company_id": 1006,
+                "created_at": "2023-06-20T14:20:00Z"
+            },
+            {
+                "id": 31007,
+                "value": "140",
+                "user_profile__company_id": 1007,
+                "created_at": "2023-07-15T10:10:00Z"
+            },
+            {
+                "id": 31008,
+                "value": "187",
+                "user_profile__company_id": 1008,
+                "created_at": "2023-08-01T15:00:00Z"
+            },
+            {
+                "id": 31009,
+                "value": "120",
+                "user_profile__company_id": 1009,
+                "created_at": "2023-09-10T11:45:00Z"
+            },
+            {
+                "id": 31010,
+                "value": "105",
+                "user_profile__company_id": 1010,
+                "created_at": "2023-10-05T08:50:00Z"
+            },
+            {
+                "id": 31011,
+                "value": "165",
+                "user_profile__company_id": 1011,
+                "created_at": "2025-12-16T13:21:00.343Z"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "Currency",
+        "answers": [],
+        "responses": [
+            {
+                "id": 41001,
                 "value": "ETB",
                 "user_profile__company_id": 1001,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-01-10T09:00:00Z"
             },
             {
-                "id": 5102,
+                "id": 41002,
                 "value": "KES",
                 "user_profile__company_id": 1002,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-02-12T11:00:00Z"
             },
             {
-                "id": 5103,
+                "id": 41003,
                 "value": "UGX",
                 "user_profile__company_id": 1003,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-03-05T08:15:00Z"
             },
             {
-                "id": 5104,
+                "id": 41004,
                 "value": "NGN",
                 "user_profile__company_id": 1004,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-04-10T10:00:00Z"
             },
             {
-                "id": 5105,
+                "id": 41005,
                 "value": "GHS",
                 "user_profile__company_id": 1005,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-05-01T09:30:00Z"
             },
             {
-                "id": 5106,
+                "id": 41006,
                 "value": "RWF",
                 "user_profile__company_id": 1006,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-06-20T14:20:00Z"
             },
             {
-                "id": 5107,
+                "id": 41007,
                 "value": "TZS",
                 "user_profile__company_id": 1007,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-07-15T10:10:00Z"
             },
             {
-                "id": 5108,
+                "id": 41008,
                 "value": "EGP",
                 "user_profile__company_id": 1008,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-08-01T15:00:00Z"
             },
             {
-                "id": 5109,
+                "id": 41009,
                 "value": "MAD",
                 "user_profile__company_id": 1009,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-09-10T11:45:00Z"
             },
             {
-                "id": 5110,
+                "id": 41010,
                 "value": "ZAR",
                 "user_profile__company_id": 1010,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-10-05T08:50:00Z"
             },
             {
-                "id": 5111,
+                "id": 41011,
                 "value": "GBP",
                 "user_profile__company_id": 1011,
-                "created_at": "2025-12-16T13:21:00.438Z"
+                "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
     },
     {
-        "id": 2003,
-        "entrepreneur_question": "What was your revenue in the last fiscal year?",
-        "resource_question": "Revenue criteria?",
-        "short_name": "revenue",
-        "question_type": {
-            "name": "Float",
-            "type": "float"
-        },
+        "id": 5,
+        "text": "Annual Revenue",
         "answers": [],
         "responses": [
             {
-                "id": 5201,
-                "value": "500000",
+                "id": 51001,
+                "value": "141410",
                 "user_profile__company_id": 1001,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-01-10T09:00:00Z"
             },
             {
-                "id": 5202,
-                "value": "1200000",
+                "id": 51002,
+                "value": "197820",
                 "user_profile__company_id": 1002,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-02-12T11:00:00Z"
             },
             {
-                "id": 5203,
-                "value": "75000",
+                "id": 51003,
+                "value": "912094",
                 "user_profile__company_id": 1003,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-03-05T08:15:00Z"
             },
             {
-                "id": 5204,
-                "value": "300000",
+                "id": 51004,
+                "value": "564102",
                 "user_profile__company_id": 1004,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-04-10T10:00:00Z"
             },
             {
-                "id": 5205,
-                "value": "2000000",
+                "id": 51005,
+                "value": "1022581",
                 "user_profile__company_id": 1005,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-05-01T09:30:00Z"
             },
             {
-                "id": 5206,
-                "value": "150000",
+                "id": 51006,
+                "value": "836456",
                 "user_profile__company_id": 1006,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-06-20T14:20:00Z"
             },
             {
-                "id": 5207,
-                "value": "450000",
+                "id": 51007,
+                "value": "391156",
                 "user_profile__company_id": 1007,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-07-15T10:10:00Z"
             },
             {
-                "id": 5208,
-                "value": "50000",
+                "id": 51008,
+                "value": "184205",
                 "user_profile__company_id": 1008,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-08-01T15:00:00Z"
             },
             {
-                "id": 5209,
-                "value": "3500000",
+                "id": 51009,
+                "value": "253701",
                 "user_profile__company_id": 1009,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-09-10T11:45:00Z"
             },
             {
-                "id": 5210,
-                "value": "250000",
+                "id": 51010,
+                "value": "338026",
                 "user_profile__company_id": 1010,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-10-05T08:50:00Z"
             },
             {
-                "id": 5211,
-                "value": "100000",
+                "id": 51011,
+                "value": "651512",
                 "user_profile__company_id": 1011,
-                "created_at": "2025-12-16T13:21:00.438Z"
+                "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
     },
     {
-        "id": 2004,
-        "entrepreneur_question": "What is your year-over-year revenue growth (%)?",
-        "resource_question": "Growth criteria?",
-        "short_name": "revenue_growth",
-        "question_type": {
-            "name": "Float",
-            "type": "float"
-        },
+        "id": 6,
+        "text": "Revenue Growth",
         "answers": [],
         "responses": [
             {
-                "id": 5301, here we need the company id not that unknown id
-                "value": "25",
+                "id": 61001,
+                "value": "0.13",
                 "user_profile__company_id": 1001,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-01-10T09:00:00Z"
             },
             {
-                "id": 5302,
-                "value": "40",
+                "id": 61002,
+                "value": "0.47",
                 "user_profile__company_id": 1002,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-02-12T11:00:00Z"
             },
             {
-                "id": 5303,
-                "value": "150",
+                "id": 61003,
+                "value": "0.47",
                 "user_profile__company_id": 1003,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-03-05T08:15:00Z"
             },
             {
-                "id": 5304,
-                "value": "20",
+                "id": 61004,
+                "value": "0.35",
                 "user_profile__company_id": 1004,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-04-10T10:00:00Z"
             },
             {
-                "id": 5305,
-                "value": "35",
+                "id": 61005,
+                "value": "0.19",
                 "user_profile__company_id": 1005,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-05-01T09:30:00Z"
             },
             {
-                "id": 5306,
-                "value": "80",
+                "id": 61006,
+                "value": "0.04",
                 "user_profile__company_id": 1006,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-06-20T14:20:00Z"
             },
             {
-                "id": 5307,
-                "value": "15",
+                "id": 61007,
+                "value": "0.18",
                 "user_profile__company_id": 1007,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-07-15T10:10:00Z"
             },
             {
-                "id": 5308,
-                "value": "60",
+                "id": 61008,
+                "value": "0.32",
                 "user_profile__company_id": 1008,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-08-01T15:00:00Z"
             },
             {
-                "id": 5309,
-                "value": "10",
+                "id": 61009,
+                "value": "0.42",
                 "user_profile__company_id": 1009,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-09-10T11:45:00Z"
             },
             {
-                "id": 5310,
-                "value": "22",
+                "id": 61010,
+                "value": "0.20",
                 "user_profile__company_id": 1010,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-10-05T08:50:00Z"
             },
             {
-                "id": 5311,
-                "value": "0",
+                "id": 61011,
+                "value": "0.49",
                 "user_profile__company_id": 1011,
-                "created_at": "2025-12-16T13:21:00.438Z"
+                "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
     },
     {
-        "id": 2005,
-        "entrepreneur_question": "Primary Activity Breakdown",
-        "resource_question": "Activity Breakdown?",
-        "short_name": "activity_breakdown",
-        "question_type": {
-            "name": "Text",
-            "type": "text"
-        },
+        "id": 7,
+        "text": "Activity Breakdown",
         "answers": [],
         "responses": [
             {
-                "id": 5401,
+                "id": 71001,
                 "value": "[{\"activityId\":151,\"countryCode\":\"ET\",\"weight\":1}]",
                 "user_profile__company_id": 1001,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-01-10T09:00:00Z"
             },
             {
-                "id": 5402,
+                "id": 71002,
                 "value": "[{\"activityId\":26256,\"countryCode\":\"KE\",\"weight\":1}]",
                 "user_profile__company_id": 1002,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-02-12T11:00:00Z"
             },
             {
-                "id": 5403,
+                "id": 71003,
                 "value": "[{\"activityId\":29489,\"countryCode\":\"UG\",\"weight\":1}]",
                 "user_profile__company_id": 1003,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-03-05T08:15:00Z"
             },
             {
-                "id": 5404,
+                "id": 71004,
                 "value": "[{\"activityId\":26242,\"countryCode\":\"NG\",\"weight\":1}]",
                 "user_profile__company_id": 1004,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-04-10T10:00:00Z"
             },
             {
-                "id": 5405,
+                "id": 71005,
                 "value": "[{\"activityId\":30192,\"countryCode\":\"GH\",\"weight\":1}]",
                 "user_profile__company_id": 1005,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-05-01T09:30:00Z"
             },
             {
-                "id": 5406,
+                "id": 71006,
                 "value": "[{\"activityId\":44,\"countryCode\":\"RW\",\"weight\":1}]",
                 "user_profile__company_id": 1006,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-06-20T14:20:00Z"
             },
             {
-                "id": 5407,
+                "id": 71007,
                 "value": "[{\"activityId\":26278,\"countryCode\":\"TZ\",\"weight\":1}]",
                 "user_profile__company_id": 1007,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-07-15T10:10:00Z"
             },
             {
-                "id": 5408,
+                "id": 71008,
                 "value": "[{\"activityId\":29494,\"countryCode\":\"EG\",\"weight\":1}]",
                 "user_profile__company_id": 1008,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-08-01T15:00:00Z"
             },
             {
-                "id": 5409,
+                "id": 71009,
                 "value": "[{\"activityId\":27994,\"countryCode\":\"MA\",\"weight\":1}]",
                 "user_profile__company_id": 1009,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-09-10T11:45:00Z"
             },
             {
-                "id": 5410,
+                "id": 71010,
                 "value": "[{\"activityId\":26225,\"countryCode\":\"ZA\",\"weight\":1}]",
                 "user_profile__company_id": 1010,
-                "created_at": "2023-11-01T10:00:00Z"
+                "created_at": "2023-10-05T08:50:00Z"
             },
             {
-                "id": 5411,
+                "id": 71011,
                 "value": "[{\"activityId\":26256,\"countryCode\":\"GB\",\"weight\":1}]",
                 "user_profile__company_id": 1011,
-                "created_at": "2025-12-16T13:21:00.438Z"
+                "created_at": "2025-12-16T13:21:00.343Z"
             }
         ]
     }

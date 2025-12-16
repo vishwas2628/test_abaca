@@ -21,16 +21,16 @@ async function fetchData(endpoint) {
         throw new Error(`Failed to fetch ${endpoint}: ${response.status} ${response.statusText}`);
     }
     const data = await response.json();
-    console.log(`Response from ${endpoint}:`, JSON.stringify(data).substring(0, 200));
+    // console.log(`Response from ${endpoint}:`, JSON.stringify(data).substring(0, 200));
     return data;
 }
 
 // Mapping of Company Name (partial) to Industry Name (keyword) and preferred currency
 const companyConfig = [
-    { name: "EcoFarms", keyword: "Agricultural", currency: "ETB" }, // Matches "Agricultural Inputs"
-    { name: "TechSavvy", keyword: "Software", currency: "KES" }, // Matches "Application Software"
-    { name: "SolarPower", keyword: "Renewable", currency: "UGX" }, // Try Renewable, else Energy
-    { name: "HealthFirst", keyword: "Healthcare Services", currency: "NGN" }, // Try Services
+    { name: "EcoFarms", keyword: "Agricultural", currency: "ETB" },
+    { name: "TechSavvy", keyword: "Software", currency: "KES" },
+    { name: "SolarPower", keyword: "Renewable", currency: "UGX" },
+    { name: "HealthFirst", keyword: "Healthcare Services", currency: "NGN" },
     { name: "EduTech", keyword: "Education", currency: "GHS" },
     { name: "FinTrust", keyword: "Financial", currency: "RWF" },
     { name: "AgriCool", keyword: "Logistics", currency: "TZS" },
@@ -40,7 +40,6 @@ const companyConfig = [
     { name: "CloudNine", keyword: "Software", currency: "GBP" }
 ];
 
-// Fallback if APIs fail or keywords don't match
 const DEFAULT_CURRENCY = 'USD';
 
 async function main() {
@@ -51,18 +50,15 @@ async function main() {
 
         const industriesResp = await fetchData('industries');
         const industries = industriesResp.industries;
-        // const currencies = await fetchData('currencies'); // Failed with 404
-        const currencies = [{ code: 'USD' }, { code: 'EUR' }, { code: 'GBP' }, { code: 'ETB' }, { code: 'KES' }, { code: 'UGX' }, { code: 'NGN' }, { code: 'GHS' }, { code: 'RWF' }, { code: 'TZS' }, { code: 'EGP' }, { code: 'MAD' }, { code: 'ZAR' }];
 
         console.log(`Loaded ${countries.length} countries, ${industries.length} industries.`);
 
-        // Cache for activities: IndustryId -> [Activities]
         const activityCache = {};
 
         async function getActivities(industryId) {
             if (activityCache[industryId]) return activityCache[industryId];
             const activitiesResp = await fetchData(`activities/industry/${encodeURIComponent(industryId)}`);
-            const activities = activitiesResp.activities || activitiesResp; // Handle possible { activities: [] } or []
+            const activities = activitiesResp.activities || activitiesResp;
             activityCache[industryId] = activities;
             return activities;
         }
@@ -74,16 +70,13 @@ async function main() {
 
         const companies = JSON.parse(fs.readFileSync(companiesPath, 'utf8'));
         const assessments = JSON.parse(fs.readFileSync(assessmentsPath, 'utf8'));
-        const qwr = JSON.parse(fs.readFileSync(qwrPath, 'utf8'));
+        // Note: We do NOT load existing qwr because we will rebuild it completely.
 
         // 3. Process Companies
         for (const company of companies) {
             console.log(`Processing ${company.name}...`);
 
             // A. Fix Location
-            // Extract Country from formatted_address or use hardcoded knowledge if parsing fails?
-            // Address format in file: "City, Country" or "Region, City, Country"
-            // Let's assume the last part of formatted_address is the Country.
             const loc = company.locations[0];
             let countryName = "Unknown";
             if (loc && loc.formatted_address) {
@@ -91,109 +84,60 @@ async function main() {
                 countryName = parts[parts.length - 1];
             }
 
-            // Find country code
             let countryObj = countries.find(c => c.name.toLowerCase() === countryName.toLowerCase());
             if (!countryObj && countryName === "Egypt") {
-                countryObj = countries.find(c => c.code === "EG"); // Manual override
+                countryObj = countries.find(c => c.code === "EG");
             }
-            // Fuzzy match country if not found
             if (!countryObj) {
                 countryObj = countries.find(c => c.name.toLowerCase().includes(countryName.toLowerCase()));
             }
 
-            let countryCode = "US"; // Default
+            let countryCode = "US";
             if (countryObj) {
                 countryCode = countryObj.code;
                 loc.country = countryObj.name;
                 loc.country_code = countryObj.code;
-                console.log(`  Set location to ${countryObj.name} (${countryCode})`);
             } else {
-                console.warn(`  Could not find country '${countryName}' in reference data. Keeping original.`);
+                console.warn(`  Could not find country '${countryName}' in reference data. Keeping default.`);
             }
 
             // B. Fix Industry/Sector & Activity
             const config = companyConfig.find(c => company.name.includes(c.name));
             let keyword = config ? config.keyword : "General";
 
-            // Find best matching industry (which is a string)
             let industryName = industries.find(i => i.toLowerCase().includes(keyword.toLowerCase()));
             if (!industryName) {
-                // Fallback attempts
                 if (keyword === "Renewable") industryName = industries.find(i => i.toLowerCase().includes("energy"));
                 if (keyword === "Healthcare Services") industryName = industries.find(i => i.toLowerCase().includes("healthcare"));
             }
-            if (!industryName) {
-                industryName = industries[0];
-                console.warn(`  Could not find industry for '${keyword}', using '${industryName}'`);
-            }
+            if (!industryName) industryName = industries[0];
 
-            // Fetch Activities
-            // industryName is the ID/Name
             let acts = await getActivities(industryName);
-
             if (!acts || acts.length === 0) {
                 console.error("  No activities found!");
                 continue;
             }
 
-            const activity = acts[0]; // Pick first one. Activity might be string or object? 
-            // Let's assume object { id, name } based on previous assumption, but need to verify.
-            // If industries were strings, activities might be objects.
-            console.log(`  Selected Industry: ${industryName}, Activity: ${JSON.stringify(activity)}`);
-
+            const activity = acts[0];
             // Update Company Sector
-            // In companies.json, sector has id and name. 
-            // If activity is object { id, name }, use it. 
-            // If activity is string, use matched name and generate (or fetch) ID?
-            // "Aluminum Refining" in companies.json had id 18968. 
-            // Reference.ts says activities return "Activities" type.
-            // I'll assume it's object. If not, I'll log and fail in next run.
-
             company.sectors = [{
                 id: activity.id,
                 name: activity.name
             }];
 
-            // C. Update Assessments
-            // Assessments are linked by `evaluated: company.id`
+            // C. Update Assessments (Sync Category)
             const assessment = assessments.find(a => a.evaluated === company.id);
             if (assessment) {
                 assessment.data = assessment.data.map(d => ({ ...d, category: activity.id }));
-                console.log(`  Updated assessment ${assessment.id} category to ${activity.id}`);
-            }
-
-            // D. Update QuestionsWithResponses
-            // Update currency (Question 2002 -> responses link via user_profile__company_id)
-            const currencyResp = qwr.find(q => q.id === 2002)?.responses.find(r => r.user_profile__company_id === company.id);
-            if (currencyResp) {
-                // Check if currency exists in reference
-                let targetCurr = config ? config.currency : DEFAULT_CURRENCY;
-                const isValidCurr = currencies.some(c => (c.code || c) === targetCurr); // c might be string or obj
-                if (!isValidCurr) targetCurr = DEFAULT_CURRENCY;
-
-                currencyResp.value = targetCurr;
-            }
-
-            // Update Activity Breakdown (Question 2005)
-            const actResp = qwr.find(q => q.id === 2005)?.responses.find(r => r.user_profile__company_id === company.id);
-            if (actResp) {
-                // Value is a JSON string: "[{\"activityId\":101,\"countryCode\":\"JP\",\"weight\":1}]"
-                const newVal = [{
-                    activityId: activity.id,
-                    countryCode: countryCode,
-                    weight: 1
-                }];
-                actResp.value = JSON.stringify(newVal);
             }
         }
 
-        // 4. Create New Valid Example if not exists
+        // 4. Create New Valid Example if not exists (CloudNine)
         const newId = 1011;
         if (!companies.find(c => c.id === newId)) {
-            console.log("Creating new example company...");
+            console.log("Creating new example company (CloudNine)...");
             const newLocId = 5011;
 
-            // Pick a country and industry
             const newCountry = countries.find(c => c.name === "United Kingdom") || countries[0];
             const newIndustryName = industries.find(i => i.includes("Technology") || i.includes("Software")) || industries[0];
             const newActs = await getActivities(newIndustryName);
@@ -229,14 +173,13 @@ async function main() {
                 created_at: new Date().toISOString(),
                 updated_at: new Date().toISOString()
             };
-
             companies.push(newCompany);
 
-            // Add corresponding assessment
+            // Add corresponding assessment (Needed for 1:1 mapping)
             const newAssessmentId = 50011;
             assessments.push({
                 id: newAssessmentId,
-                level: assessments[0].level, // Copy level structure
+                level: assessments[0].level,
                 created_at: new Date().toISOString(),
                 updated_at: new Date().toISOString(),
                 data: [{ level: 1, category: newAct.id }],
@@ -246,89 +189,28 @@ async function main() {
                 state: 2,
                 from_milestone_planner: false
             });
-
-            // Add QwR responses
-            // 1. Employees (2001)
-            const qEmployees = qwr.find(q => q.id === 2001);
-            qEmployees.responses.push({
-                id: 5011,
-                value: "10",
-                user_profile__company_id: newId,
-                created_at: new Date().toISOString()
-            });
-
-            // 2. Currency (2002)
-            const qCurrency = qwr.find(q => q.id === 2002);
-            qCurrency.responses.push({
-                id: 5111,
-                value: "GBP", // Assuming UK
-                user_profile__company_id: newId,
-                created_at: new Date().toISOString()
-            });
-
-            // 3. Revenue (2003)
-            const qRev = qwr.find(q => q.id === 2003);
-            qRev.responses.push({
-                id: 5211,
-                value: "100000",
-                user_profile__company_id: newId,
-                created_at: new Date().toISOString()
-            });
-
-            // 4. Growth (2004)
-            const qGrowth = qwr.find(q => q.id === 2004);
-            qGrowth.responses.push({
-                id: 5311,
-                value: "0",
-                user_profile__company_id: newId,
-                created_at: new Date().toISOString()
-            });
-
-            // 5. Activity Breakdown (2005)
-            const qAct = qwr.find(q => q.id === 2005);
-            const actVal = JSON.stringify([{
-                activityId: newAct.id,
-                countryCode: newCountry.code,
-                weight: 1
-            }]);
-            qAct.responses.push({
-                id: 5411,
-                value: actVal,
-                user_profile__company_id: newId,
-                created_at: new Date().toISOString()
-            });
         }
 
-        // Remove duplicates if any (keep last one by ID)
+        // 5. Deduplicate Companies
         const uniqueCompanies = [];
         const map = new Map();
-        for (const item of companies) {
-            map.set(item.id, item);
-        }
-        for (const item of map.values()) {
-            uniqueCompanies.push(item);
-        }
-
-        // Sort by ID
+        for (const item of companies) map.set(item.id, item);
+        for (const item of map.values()) uniqueCompanies.push(item);
         uniqueCompanies.sort((a, b) => a.id - b.id);
 
-        // Deduplicate Assessments & Ensure 1:1 Mapping with ID match
+        // 6. Deduplicate Assessments & Ensure 1:1 Mapping
         const uniqueAssessments = [];
         const assessMap = new Map();
+        for (const item of assessments) assessMap.set(item.evaluated, item);
 
-        // Load existing assessments into map by 'evaluated' (Company ID) to preserve data if possible
-        for (const item of assessments) {
-            assessMap.set(item.evaluated, item);
-        }
-
-        // Rebuild assessments list based on Companies
         for (const company of uniqueCompanies) {
             let assessment = assessMap.get(company.id);
             if (!assessment) {
+                // Try finding by original ID if mismatch or create new
+                // Simplified: Just create default if mapping ID not found
                 console.log(`Creating missing assessment for company ${company.id}...`);
-                // Create default assessment if missing
                 assessment = {
-                    id: company.id, // Enforce same ID
+                    id: company.id,
                     level: {
                         id: 29,
                         value: 2,
@@ -340,56 +222,47 @@ async function main() {
                     created_at: new Date().toISOString(),
                     updated_at: new Date().toISOString(),
                     data: [{ level: 2, category: company.sectors && company.sectors[0] ? company.sectors[0].id : 0 }],
-                    user: 3000 + company.id, // Mock user ID
+                    user: 3000 + company.id,
                     evaluated: company.id,
                     hash_token: `token${company.id}`,
                     state: 2,
                     from_milestone_planner: false
                 };
-            } else {
-                // Ensure ID matches Company ID
-                if (assessment.id !== company.id) {
-                    console.log(`Updating assessment ID from ${assessment.id} to ${company.id}`);
-                    assessment.id = company.id;
-                }
+            }
+            // Enforce ID match
+            if (assessment.id !== company.id) {
+                assessment.id = company.id;
             }
             uniqueAssessments.push(assessment);
         }
-
         uniqueAssessments.sort((a, b) => a.id - b.id);
 
-        // 4. Rebuild Questions with Responses (QwR) from Scratch
+        // 7. Rebuild Questions with Responses (QwR) from Scratch
         console.log("Rebuilding Questions and Responses...");
-
-        // Define Question Definitions
         const questionDefs = [
-            { id: 1, text: "Industry", type: "text" }, // Not 2005 breakdown, just simple text or similar
+            { id: 1, text: "Industry", type: "text" },
             { id: 2, text: "HQ Country Code", type: "text" },
             { id: 3, text: "Number of Employees", type: "number" },
-            { id: 4, text: "Currency", type: "text" }, // Revenue Currency
+            { id: 4, text: "Currency", type: "text" },
             { id: 5, text: "Annual Revenue", type: "number" },
             { id: 6, text: "Revenue Growth", type: "number" },
-            { id: 7, text: "Activity Breakdown", type: "json" } // THE Breakdown
+            { id: 7, text: "Activity Breakdown", type: "json" }
         ];
 
         const newQwR = questionDefs.map(def => ({
             id: def.id,
             text: def.text,
-            answers: [], // Could populate options if needed
+            answers: [],
             responses: []
         }));
 
-        // Generate Responses for each Company
         for (const company of uniqueCompanies) {
-            // Helpers
             const createdAt = company.created_at || new Date().toISOString();
             const config = companyConfig.find(c => company.name.includes(c.name));
 
-            // 1. Industry (Use Sector Name or Config Keyword)
-            // Company sector is {id, name}
+            // 1. Industry
             const industryVal = (company.sectors && company.sectors[0]) ? company.sectors[0].name : (config ? config.keyword : "General");
-
-            newQwR[0].responses.push({ // ID 1
+            newQwR[0].responses.push({
                 id: 10000 + company.id,
                 value: industryVal,
                 user_profile__company_id: company.id,
@@ -397,10 +270,8 @@ async function main() {
             });
 
             // 2. HQ Country Code
-            // company.locations[0].country_code should be set by now
             const countryCode = (company.locations && company.locations[0]) ? company.locations[0].country_code : "US";
-
-            newQwR[1].responses.push({ // ID 2
+            newQwR[1].responses.push({
                 id: 20000 + company.id,
                 value: countryCode,
                 user_profile__company_id: company.id,
@@ -408,10 +279,8 @@ async function main() {
             });
 
             // 3. Number of Employees
-            // Random or fixed
-            const employees = Math.floor(Math.random() * 400) + 10; // 10 to 410
-
-            newQwR[2].responses.push({ // ID 3
+            const employees = Math.floor(Math.random() * 400) + 10;
+            newQwR[2].responses.push({
                 id: 30000 + company.id,
                 value: employees.toString(),
                 user_profile__company_id: company.id,
@@ -420,8 +289,7 @@ async function main() {
 
             // 4. Currency
             const currency = config ? config.currency : DEFAULT_CURRENCY;
-
-            newQwR[3].responses.push({ // ID 4
+            newQwR[3].responses.push({
                 id: 40000 + company.id,
                 value: currency,
                 user_profile__company_id: company.id,
@@ -429,9 +297,8 @@ async function main() {
             });
 
             // 5. Annual Revenue
-            const revenue = Math.floor(Math.random() * 1000000) + 50000; // 50k to 1.05M
-
-            newQwR[4].responses.push({ // ID 5
+            const revenue = Math.floor(Math.random() * 1000000) + 50000;
+            newQwR[4].responses.push({
                 id: 50000 + company.id,
                 value: revenue.toString(),
                 user_profile__company_id: company.id,
@@ -439,10 +306,8 @@ async function main() {
             });
 
             // 6. Revenue Growth
-            // -0.1 to 0.5
             const growth = (Math.random() * 0.6 - 0.1).toFixed(2);
-
-            newQwR[5].responses.push({ // ID 6
+            newQwR[5].responses.push({
                 id: 60000 + company.id,
                 value: growth,
                 user_profile__company_id: company.id,
@@ -450,34 +315,21 @@ async function main() {
             });
 
             // 7. Activity Breakdown
-            // Ensure valid structure: [{ activityId, countryCode, weight: 1 }]
-            // Use company.sectors[0].id which we ensured relates to real Activity ID
             const activityId = (company.sectors && company.sectors[0]) ? company.sectors[0].id : 0;
             const breakdown = [{
                 activityId: activityId,
                 countryCode: countryCode,
                 weight: 1
             }];
-
-            newQwR[6].responses.push({ // ID 7
+            newQwR[6].responses.push({
                 id: 70000 + company.id,
-                value: JSON.stringify(breakdown), // JSON stringified as requested
+                value: JSON.stringify(breakdown),
                 user_profile__company_id: company.id,
                 created_at: createdAt
             });
         }
 
-        // Replace the global qwr object to be written
-        // qwr is a const in outer scope? We assigned it from JSON.parse. 
-        // We can just overwrite it if we declared it with const? 
-        // Wait, 'const qwr' means reference is constant. The content is mutable.
-        // But here I'm replacing the whole structure. 
-        // Better to empty the array and push new items if qwr is an array.
-        // Or if I write `qwr` var to file, I need to make sure `qwr` holds the new data.
-        // In this scope, I'll just change the write step to use `newQwR`.
-
-
-        // 5. Save Files
+        // 8. Save Files
         fs.writeFileSync(companiesPath, JSON.stringify(uniqueCompanies, null, 4));
         fs.writeFileSync(assessmentsPath, JSON.stringify(uniqueAssessments, null, 4));
         fs.writeFileSync(qwrPath, JSON.stringify(newQwR, null, 4));
