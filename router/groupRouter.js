@@ -4,7 +4,7 @@ const groups = require('../dummyJson/groups.json');
 
 // Route: Get Group with Holdings
 // Path: /user/company-lists/:uid/companies/
-router.get('/user/company-lists/:uid/companies', (req, res) => {
+router.get('/:uid/companies', (req, res) => {
     const { uid } = req.params;
 
     // Find group by uid (or id for flexibility)
