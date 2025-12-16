@@ -174,77 +174,77 @@
         "responses": [
             {
                 "id": 31001,
-                "value": "96",
+                "value": "110",
                 "user_profile__company_id": 1001,
                 "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 31002,
-                "value": "138",
+                "value": "277",
                 "user_profile__company_id": 1002,
                 "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 31003,
-                "value": "141",
+                "value": "181",
                 "user_profile__company_id": 1003,
                 "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 31004,
-                "value": "138",
+                "value": "221",
                 "user_profile__company_id": 1004,
                 "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 31005,
-                "value": "161",
+                "value": "118",
                 "user_profile__company_id": 1005,
                 "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 31006,
-                "value": "271",
+                "value": "322",
                 "user_profile__company_id": 1006,
                 "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 31007,
-                "value": "63",
+                "value": "360",
                 "user_profile__company_id": 1007,
                 "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 31008,
-                "value": "388",
+                "value": "102",
                 "user_profile__company_id": 1008,
                 "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 31009,
-                "value": "344",
+                "value": "85",
                 "user_profile__company_id": 1009,
                 "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 31010,
-                "value": "244",
+                "value": "300",
                 "user_profile__company_id": 1010,
                 "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 31011,
-                "value": "374",
+                "value": "72",
                 "user_profile__company_id": 1011,
                 "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
@@ -342,77 +342,77 @@
         "responses": [
             {
                 "id": 51001,
-                "value": "71107",
+                "value": "678074",
                 "user_profile__company_id": 1001,
                 "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 51002,
-                "value": "264191",
+                "value": "686723",
                 "user_profile__company_id": 1002,
                 "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 51003,
-                "value": "795127",
+                "value": "200655",
                 "user_profile__company_id": 1003,
                 "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 51004,
-                "value": "282097",
+                "value": "688533",
                 "user_profile__company_id": 1004,
                 "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 51005,
-                "value": "234934",
+                "value": "605668",
                 "user_profile__company_id": 1005,
                 "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 51006,
-                "value": "710500",
+                "value": "1007621",
                 "user_profile__company_id": 1006,
                 "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 51007,
-                "value": "871536",
+                "value": "664769",
                 "user_profile__company_id": 1007,
                 "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 51008,
-                "value": "259462",
+                "value": "548232",
                 "user_profile__company_id": 1008,
                 "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 51009,
-                "value": "563393",
+                "value": "289471",
                 "user_profile__company_id": 1009,
                 "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 51010,
-                "value": "756970",
+                "value": "929722",
                 "user_profile__company_id": 1010,
                 "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 51011,
-                "value": "480536",
+                "value": "94286",
                 "user_profile__company_id": 1011,
                 "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"
@@ -426,77 +426,77 @@
         "responses": [
             {
                 "id": 61001,
-                "value": "0.30",
+                "value": "0.23",
                 "user_profile__company_id": 1001,
                 "company_name": "EcoFarms Ethiopia",
                 "created_at": "2023-01-10T09:00:00Z"
             },
             {
                 "id": 61002,
-                "value": "0.48",
+                "value": "0.23",
                 "user_profile__company_id": 1002,
                 "company_name": "TechSavvy Solutions",
                 "created_at": "2023-02-12T11:00:00Z"
             },
             {
                 "id": 61003,
-                "value": "0.46",
+                "value": "0.19",
                 "user_profile__company_id": 1003,
                 "company_name": "SolarPower Africa",
                 "created_at": "2023-03-05T08:15:00Z"
             },
             {
                 "id": 61004,
-                "value": "0.38",
+                "value": "0.42",
                 "user_profile__company_id": 1004,
                 "company_name": "HealthFirst Clinics",
                 "created_at": "2023-04-10T10:00:00Z"
             },
             {
                 "id": 61005,
-                "value": "0.02",
+                "value": "0.37",
                 "user_profile__company_id": 1005,
                 "company_name": "EduTech Innovations",
                 "created_at": "2023-05-01T09:30:00Z"
             },
             {
                 "id": 61006,
-                "value": "0.30",
+                "value": "0.26",
                 "user_profile__company_id": 1006,
                 "company_name": "FinTrust Bank",
                 "created_at": "2023-06-20T14:20:00Z"
             },
             {
                 "id": 61007,
-                "value": "0.14",
+                "value": "0.44",
                 "user_profile__company_id": 1007,
                 "company_name": "AgriCool Logistics",
                 "created_at": "2023-07-15T10:10:00Z"
             },
             {
                 "id": 61008,
-                "value": "0.30",
+                "value": "0.14",
                 "user_profile__company_id": 1008,
                 "company_name": "CleanWater Systems",
                 "created_at": "2023-08-01T15:00:00Z"
             },
             {
                 "id": 61009,
-                "value": "0.40",
+                "value": "0.44",
                 "user_profile__company_id": 1009,
                 "company_name": "MarketConnect",
                 "created_at": "2023-09-10T11:45:00Z"
             },
             {
                 "id": 61010,
-                "value": "0.48",
+                "value": "0.05",
                 "user_profile__company_id": 1010,
                 "company_name": "BuildIt Construction",
                 "created_at": "2023-10-05T08:50:00Z"
             },
             {
                 "id": 61011,
-                "value": "0.05",
+                "value": "0.45",
                 "user_profile__company_id": 1011,
                 "company_name": "CloudNine Systems",
                 "created_at": "2025-12-16T13:21:00.343Z"

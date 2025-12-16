@@ -302,7 +302,15 @@ async function main() {
             });
 
             // 4. Currency
-            const currency = config ? config.currency : DEFAULT_CURRENCY;
+            // derived from HQ Country Code
+            const countryCurrencyMap = {
+                "US": "USD", "GB": "GBP", "ET": "ETB", "KE": "KES", "UG": "UGX",
+                "NG": "NGN", "GH": "GHS", "RW": "RWF", "TZ": "TZS", "EG": "EGP",
+                "MA": "MAD", "ZA": "ZAR", "CN": "CNY", "DE": "EUR", "FR": "EUR"
+            };
+
+            // Fallback to USD if unknown
+            const currency = countryCurrencyMap[countryCode] || DEFAULT_CURRENCY;
 
             newQwR[3].responses.push({ // ID 4
                 id: 40000 + company.id,
