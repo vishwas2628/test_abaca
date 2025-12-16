@@ -1,3 +1,6 @@
 node_modules
 .env
-.env
+api/*
+abacaService.ts
+generateCohortReport.ts
+generateCompanyReport.ts
