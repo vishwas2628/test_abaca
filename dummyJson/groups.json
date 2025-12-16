@@ -37,23 +37,27 @@
         "companies": [
             {
                 "id": 1006,
-                "weight": 0.25
+                "weight": 0.1667
             },
             {
                 "id": 1007,
-                "weight": 0.15
+                "weight": 0.1667
             },
             {
                 "id": 1008,
-                "weight": 0.2
+                "weight": 0.1667
             },
             {
                 "id": 1009,
-                "weight": 0.2
+                "weight": 0.1667
             },
             {
                 "id": 1010,
-                "weight": 0.2
+                "weight": 0.1666
+            },
+            {
+                "id": 1011,
+                "weight": 0.1666
             }
         ]
     }
