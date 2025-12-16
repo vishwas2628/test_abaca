@@ -1,0 +1,60 @@
+[
+    {
+        "id": "group_001",
+        "uid": "101",
+        "description": "First cohort of agricultural and tech companies",
+        "name": "Agri-Tech Pioneers",
+        "owner": "Accelerator Admin",
+        "companies": [
+            {
+                "id": 1001,
+                "weight": 0.2
+            },
+            {
+                "id": 1002,
+                "weight": 0.2
+            },
+            {
+                "id": 1003,
+                "weight": 0.2
+            },
+            {
+                "id": 1004,
+                "weight": 0.2
+            },
+            {
+                "id": 1005,
+                "weight": 0.2
+            }
+        ]
+    },
+    {
+        "id": "group_002",
+        "uid": "102",
+        "description": "Focus on sustainable development and finance",
+        "name": "Sustainability & Fintech",
+        "owner": "Impact Investor",
+        "companies": [
+            {
+                "id": 1006,
+                "weight": 0.25
+            },
+            {
+                "id": 1007,
+                "weight": 0.15
+            },
+            {
+                "id": 1008,
+                "weight": 0.2
+            },
+            {
+                "id": 1009,
+                "weight": 0.2
+            },
+            {
+                "id": 1010,
+                "weight": 0.2
+            }
+        ]
+    }
+]
