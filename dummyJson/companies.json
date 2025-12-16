@@ -22,8 +22,8 @@
         ],
         "sectors": [
             {
-                "id": 101,
-                "name": "Farm Products"
+                "id": 18968,
+                "name": "Aluminum Refining"
             }
         ],
         "networks": [],
@@ -55,8 +55,8 @@
         ],
         "sectors": [
             {
-                "id": 102,
-                "name": "Information Technology Services"
+                "id": 19004,
+                "name": "Aluminum Rolling"
             }
         ],
         "networks": [],
@@ -88,8 +88,8 @@
         ],
         "sectors": [
             {
-                "id": 103,
-                "name": "Solar"
+                "id": 19806,
+                "name": "Battery & Fuel Cell Recycling"
             }
         ],
         "networks": [],
@@ -121,8 +121,8 @@
         ],
         "sectors": [
             {
-                "id": 104,
-                "name": "Medical Care Facilities"
+                "id": 20058,
+                "name": "Cables"
             }
         ],
         "networks": [],
@@ -149,13 +149,13 @@
                 "city": "Accra",
                 "country": "Ghana",
                 "latitude": 5.6037,
-                "longitude": -0.1870
+                "longitude": -0.187
             }
         ],
         "sectors": [
             {
-                "id": 105,
-                "name": "Education & Training Services"
+                "id": 20191,
+                "name": "Cellular Fiber - Olive Timber - Textiles"
             }
         ],
         "networks": [],
@@ -187,8 +187,8 @@
         ],
         "sectors": [
             {
-                "id": 106,
-                "name": "Banks"
+                "id": 20251,
+                "name": "Cement & Concrete Self-Repair"
             }
         ],
         "networks": [],
@@ -220,12 +220,8 @@
         ],
         "sectors": [
             {
-                "id": 101,
-                "name": "Farm Products"
-            },
-            {
-                "id": 107,
-                "name": "Integrated Freight & Logistics"
+                "id": 29565,
+                "name": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance"
             }
         ],
         "networks": [],
@@ -257,8 +253,8 @@
         ],
         "sectors": [
             {
-                "id": 108,
-                "name": "Utilities Regulated Water"
+                "id": 19897,
+                "name": "Construction, industrial, and general equipment rental"
             }
         ],
         "networks": [],
@@ -290,8 +286,8 @@
         ],
         "sectors": [
             {
-                "id": 109,
-                "name": "Internet Retail"
+                "id": 25526,
+                "name": "Co-ownership (Business Model) with suppliers"
             }
         ],
         "networks": [],
@@ -323,8 +319,8 @@
         ],
         "sectors": [
             {
-                "id": 110,
-                "name": "Engineering & Construction"
+                "id": 18134,
+                "name": "Deep Sea Freight"
             }
         ],
         "networks": [],
