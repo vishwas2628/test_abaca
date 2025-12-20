@@ -19,6 +19,9 @@ app.use('/matching', questionAnsRespoRouter);
 // Use Group/Company List Routes
 app.use('/user/company-lists', groupRouter);
 
+const affiliateRouter = require('./router/affiliateRouter');
+app.use('/sdg/affiliate-program-entries', affiliateRouter);
+
 
 app.listen(port, () => {
     console.log(`Mini service listening at http://localhost:${port}`);
