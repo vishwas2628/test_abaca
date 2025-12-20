@@ -27,6 +27,7 @@ router.get('/:affiliateId', (req, res) => {
     }
 
     // Return the array of companies directly from the affiliateEntry
+    res.set('Cache-Control', 'no-store');
     res.json(affiliateEntry.companies);
 });
 
