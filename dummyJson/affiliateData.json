@@ -1,0 +1,1298 @@
+[
+    {
+        "id": 6,
+        "slug": "test-affiliate-company",
+        "sdg_reports_enabled": true,
+        "company": {
+            "id": 244,
+            "name": "Test Affiliate Company",
+            "about": "A company for testing SDG API"
+        },
+        "companies": [
+            {
+                "id": 1001,
+                "affiliate": {
+                    "id": 6,
+                    "slug": "test-affiliate-company",
+                    "sdg_reports_enabled": true,
+                    "company": {
+                        "id": 244,
+                        "name": "Test Affiliate Company",
+                        "about": "A company for testing SDG API"
+                    }
+                },
+                "user_profile": {
+                    "id": 3001,
+                    "user": {
+                        "id": 4001
+                    },
+                    "company": {
+                        "id": 1001,
+                        "name": "EcoFarms Ethiopia",
+                        "about": "EcoFarms Ethiopia is dedicated to sustainable agricultural practices in the heart of Oromia."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10001,
+                        "value": {
+                            "text": "Agricultural Inputs"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20001,
+                        "value": {
+                            "text": "ET"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30001,
+                        "value": {
+                            "value": 250
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40001,
+                        "value": {
+                            "text": "ETB"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50001,
+                        "value": {
+                            "value": 750000.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60001,
+                        "value": {
+                            "value": 0.2
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70001,
+                        "value": {
+                            "value": "[{\"activityId\": 151, \"countryCode\": \"ET\", \"weight\": 0.6}, {\"activityId\": 152, \"countryCode\": \"KE\", \"weight\": 0.4}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "id": 1002,
+                "affiliate": {
+                    "id": 6,
+                    "slug": "test-affiliate-company",
+                    "sdg_reports_enabled": true,
+                    "company": {
+                        "id": 244,
+                        "name": "Test Affiliate Company",
+                        "about": "A company for testing SDG API"
+                    }
+                },
+                "user_profile": {
+                    "id": 3002,
+                    "user": {
+                        "id": 4002
+                    },
+                    "company": {
+                        "id": 1002,
+                        "name": "TechSavvy Solutions",
+                        "about": "Leading the digital transformation in East Africa, TechSavvy Solutions provides cutting-edge software development and IT consulting services."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10002,
+                        "value": {
+                            "text": "Application Software"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20002,
+                        "value": {
+                            "text": "KE"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30002,
+                        "value": {
+                            "value": 120
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40002,
+                        "value": {
+                            "text": "KES"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50002,
+                        "value": {
+                            "value": 1500000.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60002,
+                        "value": {
+                            "value": 0.35
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70002,
+                        "value": {
+                            "value": "[{\"activityId\": 26256, \"countryCode\": \"KE\", \"weight\": 0.8}, {\"activityId\": 26257, \"countryCode\": \"UG\", \"weight\": 0.2}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "slug": "another-affiliate",
+        "sdg_reports_enabled": false,
+        "company": {
+            "id": 246,
+            "name": "Another Affiliate Group",
+            "about": "Another group of companies"
+        },
+        "companies": [
+            {
+                "id": 4,
+                "affiliate": {
+                    "id": 7,
+                    "slug": "another-affiliate",
+                    "sdg_reports_enabled": false,
+                    "company": {
+                        "id": 246,
+                        "name": "Another Affiliate Group",
+                        "about": "Another group of companies"
+                    }
+                },
+                "user_profile": {
+                    "id": 247,
+                    "user": {
+                        "id": 253
+                    },
+                    "company": {
+                        "id": 247,
+                        "name": "Global Logistics (Full SDG)",
+                        "about": "Worldwide shipping and logistics with full SDG data."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 15,
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "value": {
+                            "text": "Integrated Freight & Logistics"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 16,
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "value": {
+                            "text": "US"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 17,
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "value": {
+                            "value": 500
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 18,
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "value": {
+                            "text": "USD"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 19,
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "value": {
+                            "value": 5000000.0
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20,
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "value": {
+                            "value": 0.08
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 21,
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "value": {
+                            "value": "[{\"activityId\": 27565, \"countryCode\": \"US\", \"weight\": 0.7}, {\"activityId\": 27566, \"countryCode\": \"CA\", \"weight\": 0.3}]"
+                        },
+                        "answers": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "slug": "impact-innovators-program",
+        "sdg_reports_enabled": true,
+        "company": {
+            "id": 301,
+            "name": "Impact Innovators Program",
+            "about": "A program for high-growth social enterprises."
+        },
+        "companies": [
+            {
+                "id": 1003,
+                "affiliate": {
+                    "id": 8,
+                    "slug": "impact-innovators-program",
+                    "sdg_reports_enabled": true,
+                    "company": {
+                        "id": 301,
+                        "name": "Impact Innovators Program",
+                        "about": "A program for high-growth social enterprises."
+                    }
+                },
+                "user_profile": {
+                    "id": 3003,
+                    "user": {
+                        "id": 4003
+                    },
+                    "company": {
+                        "id": 1003,
+                        "name": "SolarPower Africa",
+                        "about": "Harnessing the power of the sun to light up rural Africa."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10003,
+                        "value": {
+                            "text": "Utilities Renewable"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20003,
+                        "value": {
+                            "text": "UG"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30003,
+                        "value": {
+                            "value": 47
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40003,
+                        "value": {
+                            "text": "UGX"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50003,
+                        "value": {
+                            "value": 820586.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60003,
+                        "value": {
+                            "value": 0.41
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70003,
+                        "value": {
+                            "value": "[{\"activityId\": 29489, \"countryCode\": \"UG\", \"weight\": 0.5}, {\"activityId\": 29490, \"countryCode\": \"RW\", \"weight\": 0.5}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "id": 1004,
+                "affiliate": {
+                    "id": 8,
+                    "slug": "impact-innovators-program",
+                    "sdg_reports_enabled": true,
+                    "company": {
+                        "id": 301,
+                        "name": "Impact Innovators Program",
+                        "about": "A program for high-growth social enterprises."
+                    }
+                },
+                "user_profile": {
+                    "id": 3004,
+                    "user": {
+                        "id": 4004
+                    },
+                    "company": {
+                        "id": 1004,
+                        "name": "HealthFirst Clinics",
+                        "about": "A network of modern, accessible primary care clinics designed to serve low-to-middle income families."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10004,
+                        "value": {
+                            "text": "Healthcare Plans"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20004,
+                        "value": {
+                            "text": "NG"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30004,
+                        "value": {
+                            "value": 200
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40004,
+                        "value": {
+                            "text": "NGN"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50004,
+                        "value": {
+                            "value": 2000000.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60004,
+                        "value": {
+                            "value": 0.28
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70004,
+                        "value": {
+                            "value": "[{\"activityId\": 26242, \"countryCode\": \"NG\", \"weight\": 0.7}, {\"activityId\": 26243, \"countryCode\": \"GH\", \"weight\": 0.3}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "id": 1005,
+                "affiliate": {
+                    "id": 8,
+                    "slug": "impact-innovators-program",
+                    "sdg_reports_enabled": true,
+                    "company": {
+                        "id": 301,
+                        "name": "Impact Innovators Program",
+                        "about": "A program for high-growth social enterprises."
+                    }
+                },
+                "user_profile": {
+                    "id": 3005,
+                    "user": {
+                        "id": 4005
+                    },
+                    "company": {
+                        "id": 1005,
+                        "name": "EduTech Innovations",
+                        "about": "Revolutionizing the way students learn through gamified mobile apps and low-bandwidth e-learning platforms."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10005,
+                        "value": {
+                            "text": "Education & Training Services"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20005,
+                        "value": {
+                            "text": "GH"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30005,
+                        "value": {
+                            "value": 85
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40005,
+                        "value": {
+                            "text": "GHS"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50005,
+                        "value": {
+                            "value": 900000.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60005,
+                        "value": {
+                            "value": 0.18
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70005,
+                        "value": {
+                            "value": "[{\"activityId\": 30192, \"countryCode\": \"GH\", \"weight\": 0.9}, {\"activityId\": 30193, \"countryCode\": \"NG\", \"weight\": 0.1}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "slug": "green-tech-pioneers",
+        "sdg_reports_enabled": true,
+        "company": {
+            "id": 302,
+            "name": "Green Tech Pioneers",
+            "about": "Fostering companies in the renewable energy and sustainability sector."
+        },
+        "companies": [
+            {
+                "id": 1006,
+                "affiliate": {
+                    "id": 9,
+                    "slug": "green-tech-pioneers",
+                    "sdg_reports_enabled": true,
+                    "company": {
+                        "id": 302,
+                        "name": "Green Tech Pioneers",
+                        "about": "Fostering companies in the renewable energy and sustainability sector."
+                    }
+                },
+                "user_profile": {
+                    "id": 3006,
+                    "user": {
+                        "id": 4006
+                    },
+                    "company": {
+                        "id": 1006,
+                        "name": "FinTrust Bank",
+                        "about": "FinTrust Bank is a digital-first challenger bank focusing on financial inclusion for the unbanked."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10006,
+                        "value": {
+                            "text": "Diversified Financials"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20006,
+                        "value": {
+                            "text": "RW"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30006,
+                        "value": {
+                            "value": 60
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40006,
+                        "value": {
+                            "text": "RWF"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50006,
+                        "value": {
+                            "value": 700000.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60006,
+                        "value": {
+                            "value": 0.22
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70006,
+                        "value": {
+                            "value": "[{\"activityId\": 44, \"countryCode\": \"RW\", \"weight\": 0.6}, {\"activityId\": 45, \"countryCode\": \"UG\", \"weight\": 0.4}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "id": 1007,
+                "affiliate": {
+                    "id": 9,
+                    "slug": "green-tech-pioneers",
+                    "sdg_reports_enabled": true,
+                    "company": {
+                        "id": 302,
+                        "name": "Green Tech Pioneers",
+                        "about": "Fostering companies in the renewable energy and sustainability sector."
+                    }
+                },
+                "user_profile": {
+                    "id": 3007,
+                    "user": {
+                        "id": 4007
+                    },
+                    "company": {
+                        "id": 1007,
+                        "name": "AgriCool Logistics",
+                        "about": "Solving the post-harvest loss challenge with an integrated cold chain logistics network."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10007,
+                        "value": {
+                            "text": "Integrated Freight & Logistics"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20007,
+                        "value": {
+                            "text": "TZ"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30007,
+                        "value": {
+                            "value": 90
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40007,
+                        "value": {
+                            "text": "TZS"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50007,
+                        "value": {
+                            "value": 1100000.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60007,
+                        "value": {
+                            "value": 0.12
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70007,
+                        "value": {
+                            "value": "[{\"activityId\": 26278, \"countryCode\": \"TZ\", \"weight\": 0.75}, {\"activityId\": 26279, \"countryCode\": \"KE\", \"weight\": 0.25}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "id": 1008,
+                "affiliate": {
+                    "id": 9,
+                    "slug": "green-tech-pioneers",
+                    "sdg_reports_enabled": true,
+                    "company": {
+                        "id": 302,
+                        "name": "Green Tech Pioneers",
+                        "about": "Fostering companies in the renewable energy and sustainability sector."
+                    }
+                },
+                "user_profile": {
+                    "id": 3008,
+                    "user": {
+                        "id": 4008
+                    },
+                    "company": {
+                        "id": 1008,
+                        "name": "CleanWater Systems",
+                        "about": "Developing innovative low-cost water filtration systems for rural communities."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10008,
+                        "value": {
+                            "text": "Utilities Regulated Water"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20008,
+                        "value": {
+                            "text": "EG"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30008,
+                        "value": {
+                            "value": 70
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40008,
+                        "value": {
+                            "text": "EGP"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50008,
+                        "value": {
+                            "value": 1800000.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60008,
+                        "value": {
+                            "value": 0.09
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70008,
+                        "value": {
+                            "value": "[{\"activityId\": 29494, \"countryCode\": \"EG\", \"weight\": 0.8}, {\"activityId\": 29495, \"countryCode\": \"SD\", \"weight\": 0.2}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "id": 1009,
+                "affiliate": {
+                    "id": 9,
+                    "slug": "green-tech-pioneers",
+                    "sdg_reports_enabled": true,
+                    "company": {
+                        "id": 302,
+                        "name": "Green Tech Pioneers",
+                        "about": "Fostering companies in the renewable energy and sustainability sector."
+                    }
+                },
+                "user_profile": {
+                    "id": 3009,
+                    "user": {
+                        "id": 4009
+                    },
+                    "company": {
+                        "id": 1009,
+                        "name": "MarketConnect",
+                        "about": "A B2B e-commerce marketplace connecting informal retailers with manufacturers and suppliers."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10009,
+                        "value": {
+                            "text": "Apparel Retail"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20009,
+                        "value": {
+                            "text": "MA"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30009,
+                        "value": {
+                            "value": 110
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40009,
+                        "value": {
+                            "text": "MAD"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50009,
+                        "value": {
+                            "value": 950000.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60009,
+                        "value": {
+                            "value": 0.14
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70009,
+                        "value": {
+                            "value": "[{\"activityId\": 27994, \"countryCode\": \"MA\", \"weight\": 0.9}, {\"activityId\": 27995, \"countryCode\": \"TN\", \"weight\": 0.1}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "slug": "future-of-finance-forum",
+        "sdg_reports_enabled": false,
+        "company": {
+            "id": 303,
+            "name": "Future of Finance Forum",
+            "about": "A collective of fintech startups focused on financial inclusion."
+        },
+        "companies": [
+            {
+                "id": 1010,
+                "affiliate": {
+                    "id": 10,
+                    "slug": "future-of-finance-forum",
+                    "sdg_reports_enabled": false,
+                    "company": {
+                        "id": 303,
+                        "name": "Future of Finance Forum",
+                        "about": "A collective of fintech startups focused on financial inclusion."
+                    }
+                },
+                "user_profile": {
+                    "id": 3010,
+                    "user": {
+                        "id": 4010
+                    },
+                    "company": {
+                        "id": 1010,
+                        "name": "BuildIt Construction",
+                        "about": "Sustainable construction using recycled materials."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10010,
+                        "value": {
+                            "text": "Engineering & Construction"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20010,
+                        "value": {
+                            "text": "ZA"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30010,
+                        "value": {
+                            "value": 300
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40010,
+                        "value": {
+                            "text": "ZAR"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50010,
+                        "value": {
+                            "value": 3000000.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60010,
+                        "value": {
+                            "value": 0.1
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70010,
+                        "value": {
+                            "value": "[{\"activityId\": 26225, \"countryCode\": \"ZA\", \"weight\": 0.7}, {\"activityId\": 26226, \"countryCode\": \"ZM\", \"weight\": 0.3}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "id": 1011,
+                "affiliate": {
+                    "id": 10,
+                    "slug": "future-of-finance-forum",
+                    "sdg_reports_enabled": false,
+                    "company": {
+                        "id": 303,
+                        "name": "Future of Finance Forum",
+                        "about": "A collective of fintech startups focused on financial inclusion."
+                    }
+                },
+                "user_profile": {
+                    "id": 3011,
+                    "user": {
+                        "id": 4011
+                    },
+                    "company": {
+                        "id": 1011,
+                        "name": "CloudNine Systems",
+                        "about": "CloudNine Systems provides scalable cloud infrastructure solutions for startups."
+                    }
+                },
+                "sdg_response": [
+                    {
+                        "id": 10011,
+                        "value": {
+                            "text": "Application Software"
+                        },
+                        "question": {
+                            "id": 1,
+                            "text": "what is your industry?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 20011,
+                        "value": {
+                            "text": "GB"
+                        },
+                        "question": {
+                            "id": 2,
+                            "text": "where are your headquarters located?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 30011,
+                        "value": {
+                            "value": 180
+                        },
+                        "question": {
+                            "id": 3,
+                            "text": "how many employees do you have?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 40011,
+                        "value": {
+                            "text": "GBP"
+                        },
+                        "question": {
+                            "id": 4,
+                            "text": "what is your primary currency?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 50011,
+                        "value": {
+                            "value": 2500000.0
+                        },
+                        "question": {
+                            "id": 5,
+                            "text": "what is your annual revenue?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 60011,
+                        "value": {
+                            "value": 0.17
+                        },
+                        "question": {
+                            "id": 6,
+                            "text": "what is your annual revenue growth rate?"
+                        },
+                        "answers": []
+                    },
+                    {
+                        "id": 70011,
+                        "value": {
+                            "value": "[{\"activityId\": 2814, \"countryCode\": \"GB\", \"weight\": 0.6}, {\"activityId\": 2815, \"countryCode\": \"IE\", \"weight\": 0.4}]"
+                        },
+                        "question": {
+                            "id": 7,
+                            "text": "what are your activities breakdown?"
+                        },
+                        "answers": []
+                    }
+                ]
+            }
+        ]
+    }
+]
