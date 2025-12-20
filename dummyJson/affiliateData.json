@@ -220,7 +220,7 @@
     {
         "id": 7,
         "slug": "another-affiliate",
-        "sdg_reports_enabled": false,
+        "sdg_reports_enabled": true,
         "company": {
             "id": 246,
             "name": "Another Affiliate Group",
@@ -232,7 +232,7 @@
                 "affiliate": {
                     "id": 7,
                     "slug": "another-affiliate",
-                    "sdg_reports_enabled": false,
+                    "sdg_reports_enabled": true,
                     "company": {
                         "id": 246,
                         "name": "Another Affiliate Group",
