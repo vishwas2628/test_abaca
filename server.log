@@ -1,0 +1,6 @@
+nohup: ignoring input
+[dotenv@17.2.3] injecting env (3) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+Mini service listening at http://localhost:3001
+[FCM] Stored token for extension: 1001
+[FCM] Retrieved token for extension: 1001
+[FCM] No token found for extension: 9999

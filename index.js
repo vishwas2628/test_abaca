@@ -22,6 +22,9 @@ app.use('/user/company-lists', groupRouter);
 const affiliateRouter = require('./router/affiliateRouter');
 app.use('/sdg/affiliate-program-entries', affiliateRouter);
 
+const fcmRouter = require('./router/fcmRouter');
+app.use('/', fcmRouter);
+
 
 app.listen(port, () => {
     console.log(`Mini service listening at http://localhost:${port}`);
